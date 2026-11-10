@@ -1,0 +1,1001 @@
+Record_ID,Department,Semester,Section,Subject,Faculty_Name,Room_Number,Room_Type,Room_Capacity,Day,Start_Time,End_Time,Subject_Type,Student_Count,Faculty_Availability,Room_Availability,Faculty_Conflict,Room_Conflict,Capacity_OK,Preferred_Period,Preference_Match,Conflict_Flag,Priority,Timetable_Status,AI_Recommendation
+TT0001,EEE,1,A,Power Electronics,EEE_Faculty_12,LAB-07,Lab,60,Wednesday,11:15,12:15,Lab,34,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0002,MECH,1,C,Fluid Mechanics,MECH_Faculty_08,CR-09,Theory,40,Monday,12:15,13:15,Theory,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0003,CSE,5,A,Python Programming,CSE_Faculty_04,CR-02,Theory,40,Thursday,11:15,12:15,Theory,54,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0004,MECH,4,A,Thermodynamics,MECH_Faculty_08,CR-07,Theory,40,Wednesday,15:00,16:00,Theory,60,Yes,Yes,Yes,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0005,EEE,2,A,Control Systems,EEE_Faculty_10,CR-12,Theory,40,Wednesday,10:00,11:00,Theory,56,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0006,MECH,7,B,Manufacturing Technology,MECH_Faculty_04,CR-03,Theory,60,Friday,12:15,13:15,Theory,30,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0007,MECH,7,B,Engineering Mechanics,MECH_Faculty_10,CR-08,Theory,80,Friday,11:15,12:15,Theory,60,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0008,ECE,3,B,Digital Electronics,ECE_Faculty_01,LAB-05,Lab,30,Friday,10:00,11:00,Lab,57,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0009,AIML,3,C,Artificial Intelligence,AIML_Faculty_09,CR-01,Theory,40,Friday,11:15,12:15,Theory,56,Yes,No,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0010,CSE,8,A,Computer Networks,CSE_Faculty_09,CR-03,Theory,60,Tuesday,15:00,16:00,Theory,55,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0011,MECH,5,B,Thermodynamics,MECH_Faculty_11,CR-11,Theory,70,Wednesday,12:15,13:15,Theory,58,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0012,MECH,1,A,Thermodynamics,MECH_Faculty_12,CR-11,Theory,70,Monday,10:00,11:00,Theory,29,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0013,AIML,8,A,Python Programming,AIML_Faculty_08,LAB-07,Lab,60,Tuesday,09:00,10:00,Lab,31,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0014,CSE,6,A,Python Programming,CSE_Faculty_04,LAB-04,Lab,40,Tuesday,14:00,15:00,Lab,53,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0015,MECH,1,C,Engineering Mechanics,MECH_Faculty_09,CR-01,Theory,40,Monday,10:00,11:00,Theory,35,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0016,EEE,8,B,Control Systems,EEE_Faculty_07,CR-12,Theory,40,Saturday,14:00,15:00,Theory,56,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0017,CSE,3,A,Python Programming,CSE_Faculty_09,CR-02,Theory,40,Tuesday,09:00,10:00,Theory,63,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0018,MECH,1,C,Machine Design,MECH_Faculty_02,CR-07,Theory,40,Saturday,14:00,15:00,Theory,61,Yes,No,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0019,EEE,5,B,Power Systems,EEE_Faculty_06,CR-02,Theory,40,Monday,12:15,13:15,Theory,64,No,No,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0020,ECE,6,B,Digital Electronics,ECE_Faculty_03,CR-08,Theory,80,Friday,15:00,16:00,Theory,44,Yes,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0021,CSE,5,A,Data Structures,CSE_Faculty_02,CR-12,Theory,40,Friday,10:00,11:00,Theory,42,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0022,MECH,1,A,Manufacturing Technology,MECH_Faculty_11,LAB-07,Lab,60,Wednesday,09:00,10:00,Lab,25,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0023,EEE,2,C,Power Electronics,EEE_Faculty_03,LAB-01,Lab,30,Wednesday,14:00,15:00,Lab,60,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0024,ECE,4,C,Signals and Systems,ECE_Faculty_02,CR-06,Theory,50,Friday,12:15,13:15,Theory,64,Yes,No,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0025,EEE,3,C,Electrical Machines,EEE_Faculty_06,CR-07,Theory,40,Saturday,15:00,16:00,Theory,40,Yes,Yes,Yes,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0026,AIML,8,B,Deep Learning,AIML_Faculty_05,CR-04,Theory,50,Tuesday,09:00,10:00,Theory,37,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0027,MECH,6,A,Manufacturing Technology,MECH_Faculty_02,CR-05,Theory,50,Tuesday,14:00,15:00,Theory,41,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0028,MECH,7,C,Engineering Mechanics,MECH_Faculty_04,CR-05,Theory,50,Monday,15:00,16:00,Theory,52,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0029,ECE,2,C,Communication Systems,ECE_Faculty_06,CR-10,Theory,80,Wednesday,15:00,16:00,Theory,32,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0030,ECE,3,A,VLSI Design,ECE_Faculty_07,CR-11,Theory,70,Thursday,15:00,16:00,Theory,36,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0031,EEE,6,B,Power Electronics,EEE_Faculty_08,CR-08,Theory,80,Saturday,10:00,11:00,Theory,57,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0032,MECH,2,A,Fluid Mechanics,MECH_Faculty_11,CR-05,Theory,50,Tuesday,10:00,11:00,Theory,34,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0033,EEE,7,B,Power Electronics,EEE_Faculty_07,LAB-04,Lab,40,Tuesday,15:00,16:00,Lab,25,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0034,MECH,4,A,Manufacturing Technology,MECH_Faculty_08,LAB-03,Lab,40,Thursday,15:00,16:00,Lab,58,No,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0035,MECH,8,B,Manufacturing Technology,MECH_Faculty_05,CR-04,Theory,50,Saturday,11:15,12:15,Theory,58,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0036,ECE,2,A,Microprocessors,ECE_Faculty_03,CR-04,Theory,50,Thursday,15:00,16:00,Theory,34,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0037,AIML,1,C,Data Mining,AIML_Faculty_07,LAB-08,Lab,40,Monday,11:15,12:15,Lab,44,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0038,EEE,5,B,Power Systems,EEE_Faculty_08,CR-01,Theory,40,Thursday,11:15,12:15,Theory,50,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0039,MECH,1,A,Machine Design,MECH_Faculty_11,CR-07,Theory,40,Tuesday,12:15,13:15,Theory,36,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0040,ECE,5,A,Communication Systems,ECE_Faculty_08,CR-01,Theory,40,Saturday,14:00,15:00,Theory,28,No,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0041,CSE,4,A,Data Structures,CSE_Faculty_10,CR-03,Theory,60,Tuesday,10:00,11:00,Theory,55,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0042,AIML,2,A,Python Programming,AIML_Faculty_05,CR-02,Theory,40,Friday,09:00,10:00,Theory,44,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0043,MECH,2,C,Thermodynamics,MECH_Faculty_05,CR-11,Theory,70,Friday,09:00,10:00,Theory,61,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0044,ECE,8,A,Digital Electronics,ECE_Faculty_07,CR-06,Theory,50,Saturday,12:15,13:15,Theory,34,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0045,EEE,7,C,Circuit Theory,EEE_Faculty_10,CR-05,Theory,50,Wednesday,10:00,11:00,Theory,30,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0046,CSE,6,A,Operating Systems,CSE_Faculty_08,CR-04,Theory,50,Wednesday,11:15,12:15,Theory,46,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0047,CSE,7,B,Data Structures,CSE_Faculty_09,CR-04,Theory,50,Saturday,12:15,13:15,Theory,56,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0048,MECH,8,C,Fluid Mechanics,MECH_Faculty_09,CR-06,Theory,50,Thursday,15:00,16:00,Theory,60,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0049,ECE,3,A,Digital Electronics,ECE_Faculty_04,CR-12,Theory,40,Thursday,11:15,12:15,Theory,62,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0050,AIML,3,B,Artificial Intelligence,AIML_Faculty_01,CR-12,Theory,40,Friday,10:00,11:00,Theory,42,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0051,CSE,8,B,Python Programming,CSE_Faculty_08,CR-06,Theory,50,Tuesday,09:00,10:00,Theory,41,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0052,AIML,5,A,Deep Learning,AIML_Faculty_04,CR-02,Theory,40,Friday,12:15,13:15,Theory,63,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0053,MECH,1,C,Manufacturing Technology,MECH_Faculty_12,LAB-02,Lab,30,Tuesday,15:00,16:00,Lab,38,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0054,EEE,8,B,Circuit Theory,EEE_Faculty_01,CR-04,Theory,50,Wednesday,15:00,16:00,Theory,43,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0055,MECH,7,A,Thermodynamics,MECH_Faculty_09,CR-04,Theory,50,Saturday,10:00,11:00,Theory,42,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0056,ECE,2,B,Communication Systems,ECE_Faculty_12,CR-05,Theory,50,Saturday,12:15,13:15,Theory,42,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0057,ECE,5,A,VLSI Design,ECE_Faculty_02,CR-04,Theory,50,Saturday,14:00,15:00,Theory,62,No,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0058,EEE,5,A,Power Electronics,EEE_Faculty_10,CR-07,Theory,40,Saturday,12:15,13:15,Theory,30,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0059,EEE,5,C,Circuit Theory,EEE_Faculty_07,CR-09,Theory,40,Monday,12:15,13:15,Theory,30,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0060,MECH,4,C,Manufacturing Technology,MECH_Faculty_06,LAB-08,Lab,40,Saturday,12:15,13:15,Lab,28,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0061,CSE,4,C,Computer Networks,CSE_Faculty_03,CR-05,Theory,50,Friday,09:00,10:00,Theory,60,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0062,EEE,5,B,Control Systems,EEE_Faculty_08,CR-08,Theory,80,Tuesday,12:15,13:15,Theory,60,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0063,ECE,6,C,Communication Systems,ECE_Faculty_05,CR-01,Theory,40,Wednesday,15:00,16:00,Theory,44,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0064,ECE,7,B,Microprocessors,ECE_Faculty_06,CR-04,Theory,50,Saturday,10:00,11:00,Theory,61,Yes,Yes,No,Yes,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0065,EEE,8,A,Power Systems,EEE_Faculty_03,CR-09,Theory,40,Friday,11:15,12:15,Theory,31,Yes,Yes,Yes,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0066,EEE,2,B,Power Systems,EEE_Faculty_05,CR-06,Theory,50,Friday,15:00,16:00,Theory,50,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0067,EEE,2,A,Power Electronics,EEE_Faculty_11,LAB-05,Lab,30,Tuesday,15:00,16:00,Lab,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0068,ECE,1,B,Digital Electronics,ECE_Faculty_06,LAB-06,Lab,40,Thursday,10:00,11:00,Lab,40,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0069,MECH,8,C,Thermodynamics,MECH_Faculty_03,CR-04,Theory,50,Thursday,15:00,16:00,Theory,41,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0070,CSE,6,C,Operating Systems,CSE_Faculty_05,CR-11,Theory,70,Thursday,15:00,16:00,Theory,41,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0071,MECH,5,C,Fluid Mechanics,MECH_Faculty_05,CR-01,Theory,40,Saturday,12:15,13:15,Theory,42,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0072,ECE,6,A,Signals and Systems,ECE_Faculty_11,CR-04,Theory,50,Friday,11:15,12:15,Theory,33,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0073,MECH,3,A,Fluid Mechanics,MECH_Faculty_05,CR-06,Theory,50,Saturday,12:15,13:15,Theory,36,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0074,ECE,5,C,Communication Systems,ECE_Faculty_06,CR-02,Theory,40,Thursday,09:00,10:00,Theory,34,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0075,ECE,1,B,Digital Electronics,ECE_Faculty_09,CR-02,Theory,40,Thursday,11:15,12:15,Theory,41,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0076,MECH,6,C,Machine Design,MECH_Faculty_04,CR-11,Theory,70,Monday,15:00,16:00,Theory,54,No,Yes,Yes,No,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0077,ECE,2,A,Communication Systems,ECE_Faculty_04,CR-09,Theory,40,Tuesday,12:15,13:15,Theory,54,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0078,EEE,8,C,Electrical Machines,EEE_Faculty_07,CR-05,Theory,50,Monday,15:00,16:00,Theory,48,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0079,ECE,6,A,VLSI Design,ECE_Faculty_07,CR-05,Theory,50,Tuesday,09:00,10:00,Theory,54,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0080,AIML,4,A,Deep Learning,AIML_Faculty_09,CR-04,Theory,50,Friday,10:00,11:00,Theory,39,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0081,AIML,3,A,Python Programming,AIML_Faculty_11,LAB-01,Lab,30,Tuesday,09:00,10:00,Lab,47,Yes,Yes,No,Yes,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0082,EEE,2,B,Power Electronics,EEE_Faculty_08,LAB-06,Lab,40,Friday,14:00,15:00,Lab,31,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0083,EEE,1,B,Electrical Machines,EEE_Faculty_07,CR-07,Theory,40,Saturday,09:00,10:00,Theory,56,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0084,ECE,6,B,VLSI Design,ECE_Faculty_10,CR-09,Theory,40,Wednesday,12:15,13:15,Theory,57,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0085,EEE,4,B,Circuit Theory,EEE_Faculty_06,CR-08,Theory,80,Thursday,12:15,13:15,Theory,31,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0086,CSE,2,B,Python Programming,CSE_Faculty_02,CR-12,Theory,40,Saturday,11:15,12:15,Theory,33,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0087,ECE,1,B,Communication Systems,ECE_Faculty_10,CR-05,Theory,50,Wednesday,09:00,10:00,Theory,61,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0088,CSE,4,B,Database Management,CSE_Faculty_09,CR-10,Theory,80,Friday,15:00,16:00,Theory,60,Yes,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0089,ECE,3,C,Microprocessors,ECE_Faculty_11,LAB-07,Lab,60,Monday,10:00,11:00,Lab,65,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0090,AIML,5,C,Artificial Intelligence,AIML_Faculty_06,CR-10,Theory,80,Friday,09:00,10:00,Theory,28,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0091,EEE,8,B,Circuit Theory,EEE_Faculty_05,CR-04,Theory,50,Friday,09:00,10:00,Theory,47,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0092,CSE,7,C,Data Structures,CSE_Faculty_01,CR-01,Theory,40,Tuesday,11:15,12:15,Theory,38,Yes,Yes,Yes,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0093,AIML,4,C,Deep Learning,AIML_Faculty_09,LAB-06,Lab,40,Monday,12:15,13:15,Lab,27,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0094,EEE,5,A,Circuit Theory,EEE_Faculty_07,CR-01,Theory,40,Wednesday,10:00,11:00,Theory,64,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0095,EEE,2,B,Power Electronics,EEE_Faculty_05,LAB-06,Lab,40,Tuesday,11:15,12:15,Lab,35,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0096,ECE,4,A,Signals and Systems,ECE_Faculty_03,CR-05,Theory,50,Tuesday,10:00,11:00,Theory,63,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0097,EEE,8,C,Power Electronics,EEE_Faculty_10,CR-11,Theory,70,Saturday,14:00,15:00,Theory,45,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0098,ECE,6,C,Microprocessors,ECE_Faculty_02,CR-05,Theory,50,Thursday,12:15,13:15,Theory,27,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0099,MECH,7,B,Machine Design,MECH_Faculty_10,CR-09,Theory,40,Saturday,09:00,10:00,Theory,53,No,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0100,CSE,2,B,Operating Systems,CSE_Faculty_12,CR-02,Theory,40,Friday,15:00,16:00,Theory,36,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0101,ECE,6,C,Microprocessors,ECE_Faculty_10,LAB-01,Lab,30,Saturday,15:00,16:00,Lab,46,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0102,ECE,3,B,Digital Electronics,ECE_Faculty_05,CR-11,Theory,70,Saturday,15:00,16:00,Theory,50,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0103,AIML,2,C,Statistics,AIML_Faculty_11,CR-07,Theory,40,Friday,11:15,12:15,Theory,26,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0104,AIML,5,A,Deep Learning,AIML_Faculty_09,LAB-01,Lab,30,Saturday,11:15,12:15,Lab,64,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0105,EEE,7,B,Electrical Machines,EEE_Faculty_11,CR-12,Theory,40,Tuesday,12:15,13:15,Theory,64,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0106,AIML,8,B,Artificial Intelligence,AIML_Faculty_05,CR-07,Theory,40,Friday,14:00,15:00,Theory,51,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0107,ECE,2,C,VLSI Design,ECE_Faculty_09,CR-02,Theory,40,Wednesday,09:00,10:00,Theory,35,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0108,EEE,1,B,Control Systems,EEE_Faculty_01,CR-07,Theory,40,Friday,11:15,12:15,Theory,40,Yes,Yes,No,Yes,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0109,AIML,8,C,Deep Learning,AIML_Faculty_03,LAB-08,Lab,40,Thursday,14:00,15:00,Lab,25,No,Yes,No,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0110,CSE,4,B,Database Management,CSE_Faculty_02,CR-01,Theory,40,Tuesday,12:15,13:15,Theory,65,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0111,MECH,4,C,Machine Design,MECH_Faculty_03,CR-05,Theory,50,Thursday,09:00,10:00,Theory,64,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0112,CSE,1,B,AI and Machine Learning,CSE_Faculty_08,CR-01,Theory,40,Saturday,12:15,13:15,Theory,48,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0113,MECH,3,A,Fluid Mechanics,MECH_Faculty_06,CR-09,Theory,40,Wednesday,15:00,16:00,Theory,36,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0114,CSE,8,A,Computer Networks,CSE_Faculty_05,CR-04,Theory,50,Monday,10:00,11:00,Theory,27,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0115,CSE,4,B,Computer Networks,CSE_Faculty_06,CR-01,Theory,40,Saturday,11:15,12:15,Theory,42,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0116,ECE,8,C,Signals and Systems,ECE_Faculty_08,CR-06,Theory,50,Friday,11:15,12:15,Theory,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0117,ECE,5,B,Digital Electronics,ECE_Faculty_08,LAB-07,Lab,60,Tuesday,15:00,16:00,Lab,53,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0118,CSE,7,B,Python Programming,CSE_Faculty_09,CR-12,Theory,40,Saturday,10:00,11:00,Theory,26,Yes,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0119,ECE,1,C,Communication Systems,ECE_Faculty_03,CR-11,Theory,70,Thursday,11:15,12:15,Theory,48,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0120,ECE,2,A,Signals and Systems,ECE_Faculty_12,CR-03,Theory,60,Thursday,14:00,15:00,Theory,49,No,Yes,No,No,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0121,EEE,2,A,Power Systems,EEE_Faculty_02,CR-08,Theory,80,Tuesday,15:00,16:00,Theory,53,No,Yes,No,No,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0122,ECE,3,B,Signals and Systems,ECE_Faculty_09,CR-04,Theory,50,Monday,10:00,11:00,Theory,33,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0123,AIML,2,B,Python Programming,AIML_Faculty_07,CR-12,Theory,40,Saturday,12:15,13:15,Theory,58,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0124,EEE,6,A,Circuit Theory,EEE_Faculty_09,CR-11,Theory,70,Friday,10:00,11:00,Theory,33,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0125,AIML,4,B,Deep Learning,AIML_Faculty_09,LAB-05,Lab,30,Monday,11:15,12:15,Lab,37,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0126,MECH,3,A,Thermodynamics,MECH_Faculty_11,CR-10,Theory,80,Saturday,14:00,15:00,Theory,46,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0127,ECE,7,C,Signals and Systems,ECE_Faculty_11,CR-01,Theory,40,Thursday,15:00,16:00,Theory,59,Yes,No,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0128,ECE,2,C,Communication Systems,ECE_Faculty_01,CR-03,Theory,60,Thursday,12:15,13:15,Theory,55,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0129,ECE,3,B,Communication Systems,ECE_Faculty_09,CR-09,Theory,40,Monday,11:15,12:15,Theory,40,Yes,Yes,Yes,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0130,MECH,3,B,Manufacturing Technology,MECH_Faculty_10,LAB-06,Lab,40,Tuesday,10:00,11:00,Lab,56,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0131,MECH,4,C,Manufacturing Technology,MECH_Faculty_06,CR-01,Theory,40,Monday,11:15,12:15,Theory,56,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0132,EEE,5,C,Power Systems,EEE_Faculty_06,CR-07,Theory,40,Wednesday,09:00,10:00,Theory,50,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0133,MECH,2,A,Fluid Mechanics,MECH_Faculty_02,CR-07,Theory,40,Wednesday,11:15,12:15,Theory,60,No,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0134,CSE,6,B,Python Programming,CSE_Faculty_09,LAB-08,Lab,40,Tuesday,14:00,15:00,Lab,57,Yes,No,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0135,MECH,8,C,Fluid Mechanics,MECH_Faculty_10,CR-05,Theory,50,Thursday,09:00,10:00,Theory,48,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0136,CSE,4,C,AI and Machine Learning,CSE_Faculty_01,CR-10,Theory,80,Thursday,10:00,11:00,Theory,58,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0137,MECH,4,A,Engineering Mechanics,MECH_Faculty_08,CR-06,Theory,50,Thursday,10:00,11:00,Theory,51,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0138,AIML,6,C,Python Programming,AIML_Faculty_08,LAB-07,Lab,60,Wednesday,10:00,11:00,Lab,54,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0139,MECH,4,B,Manufacturing Technology,MECH_Faculty_09,LAB-05,Lab,30,Tuesday,11:15,12:15,Lab,43,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0140,ECE,7,B,Digital Electronics,ECE_Faculty_06,CR-03,Theory,60,Wednesday,09:00,10:00,Theory,43,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0141,AIML,5,A,Python Programming,AIML_Faculty_02,LAB-04,Lab,40,Tuesday,09:00,10:00,Lab,58,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0142,AIML,3,B,Machine Learning,AIML_Faculty_11,CR-08,Theory,80,Thursday,15:00,16:00,Theory,37,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0143,MECH,1,A,Thermodynamics,MECH_Faculty_07,CR-03,Theory,60,Monday,12:15,13:15,Theory,56,Yes,Yes,Yes,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0144,ECE,8,A,Microprocessors,ECE_Faculty_09,CR-08,Theory,80,Wednesday,10:00,11:00,Theory,32,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0145,ECE,4,A,Microprocessors,ECE_Faculty_10,CR-11,Theory,70,Thursday,12:15,13:15,Theory,57,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0146,AIML,4,B,Machine Learning,AIML_Faculty_05,LAB-06,Lab,40,Wednesday,14:00,15:00,Lab,61,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0147,ECE,7,C,Signals and Systems,ECE_Faculty_09,CR-12,Theory,40,Wednesday,15:00,16:00,Theory,32,Yes,No,No,No,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0148,EEE,8,C,Power Systems,EEE_Faculty_10,CR-06,Theory,50,Thursday,15:00,16:00,Theory,60,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0149,MECH,6,A,Manufacturing Technology,MECH_Faculty_10,CR-02,Theory,40,Monday,14:00,15:00,Theory,57,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0150,AIML,8,A,Statistics,AIML_Faculty_09,CR-08,Theory,80,Monday,12:15,13:15,Theory,33,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0151,CSE,5,A,Operating Systems,CSE_Faculty_12,CR-04,Theory,50,Friday,09:00,10:00,Theory,27,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0152,EEE,5,B,Electrical Machines,EEE_Faculty_03,CR-03,Theory,60,Saturday,15:00,16:00,Theory,51,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0153,CSE,3,C,Computer Networks,CSE_Faculty_06,CR-02,Theory,40,Tuesday,14:00,15:00,Theory,50,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0154,EEE,7,A,Power Electronics,EEE_Faculty_04,CR-08,Theory,80,Wednesday,10:00,11:00,Theory,42,Yes,Yes,No,Yes,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0155,AIML,1,B,Deep Learning,AIML_Faculty_10,LAB-01,Lab,30,Tuesday,15:00,16:00,Lab,27,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0156,MECH,4,C,Fluid Mechanics,MECH_Faculty_10,CR-06,Theory,50,Friday,14:00,15:00,Theory,45,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0157,CSE,3,C,AI and Machine Learning,CSE_Faculty_11,CR-07,Theory,40,Friday,12:15,13:15,Theory,28,No,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0158,EEE,5,B,Power Systems,EEE_Faculty_03,CR-09,Theory,40,Thursday,10:00,11:00,Theory,39,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0159,MECH,3,B,Machine Design,MECH_Faculty_04,CR-05,Theory,50,Tuesday,11:15,12:15,Theory,30,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0160,ECE,1,A,Communication Systems,ECE_Faculty_04,CR-10,Theory,80,Saturday,15:00,16:00,Theory,60,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0161,AIML,2,C,Statistics,AIML_Faculty_08,CR-04,Theory,50,Saturday,14:00,15:00,Theory,38,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0162,ECE,8,B,Microprocessors,ECE_Faculty_02,LAB-08,Lab,40,Wednesday,10:00,11:00,Lab,48,Yes,Yes,Yes,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0163,ECE,4,B,Signals and Systems,ECE_Faculty_04,CR-07,Theory,40,Friday,10:00,11:00,Theory,56,Yes,No,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0164,EEE,6,A,Power Systems,EEE_Faculty_03,CR-12,Theory,40,Friday,12:15,13:15,Theory,36,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0165,CSE,4,A,Python Programming,CSE_Faculty_12,LAB-03,Lab,40,Monday,10:00,11:00,Lab,57,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0166,EEE,1,C,Electrical Machines,EEE_Faculty_09,CR-07,Theory,40,Monday,09:00,10:00,Theory,58,Yes,Yes,No,Yes,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0167,AIML,3,A,Machine Learning,AIML_Faculty_04,CR-10,Theory,80,Friday,11:15,12:15,Theory,47,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0168,AIML,2,C,Artificial Intelligence,AIML_Faculty_11,CR-01,Theory,40,Monday,12:15,13:15,Theory,49,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0169,EEE,2,C,Control Systems,EEE_Faculty_01,CR-04,Theory,50,Tuesday,15:00,16:00,Theory,61,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0170,AIML,1,A,Artificial Intelligence,AIML_Faculty_10,CR-03,Theory,60,Saturday,12:15,13:15,Theory,29,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0171,ECE,3,C,Communication Systems,ECE_Faculty_12,CR-02,Theory,40,Friday,15:00,16:00,Theory,47,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0172,ECE,8,B,Digital Electronics,ECE_Faculty_04,CR-06,Theory,50,Friday,12:15,13:15,Theory,52,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0173,CSE,7,C,Python Programming,CSE_Faculty_11,LAB-03,Lab,40,Saturday,12:15,13:15,Lab,45,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0174,AIML,8,C,Machine Learning,AIML_Faculty_09,LAB-07,Lab,60,Monday,09:00,10:00,Lab,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0175,ECE,7,A,Communication Systems,ECE_Faculty_12,CR-09,Theory,40,Tuesday,14:00,15:00,Theory,58,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0176,CSE,7,B,Data Structures,CSE_Faculty_07,CR-05,Theory,50,Thursday,09:00,10:00,Theory,48,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0177,CSE,5,A,Data Structures,CSE_Faculty_07,CR-06,Theory,50,Friday,12:15,13:15,Theory,46,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0178,MECH,8,B,Thermodynamics,MECH_Faculty_03,CR-07,Theory,40,Wednesday,11:15,12:15,Theory,65,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0179,ECE,4,C,Digital Electronics,ECE_Faculty_09,CR-03,Theory,60,Saturday,14:00,15:00,Theory,26,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0180,EEE,3,C,Circuit Theory,EEE_Faculty_05,CR-04,Theory,50,Wednesday,15:00,16:00,Theory,34,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0181,EEE,7,C,Power Electronics,EEE_Faculty_01,CR-06,Theory,50,Saturday,14:00,15:00,Theory,63,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0182,MECH,6,B,Manufacturing Technology,MECH_Faculty_02,CR-01,Theory,40,Monday,11:15,12:15,Theory,39,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0183,EEE,3,B,Circuit Theory,EEE_Faculty_01,CR-08,Theory,80,Monday,11:15,12:15,Theory,51,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0184,AIML,8,A,Python Programming,AIML_Faculty_08,CR-12,Theory,40,Saturday,12:15,13:15,Theory,45,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0185,AIML,4,C,Statistics,AIML_Faculty_03,CR-09,Theory,40,Tuesday,11:15,12:15,Theory,60,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0186,EEE,4,B,Electrical Machines,EEE_Faculty_10,CR-07,Theory,40,Thursday,09:00,10:00,Theory,38,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0187,AIML,6,A,Artificial Intelligence,AIML_Faculty_08,CR-02,Theory,40,Wednesday,15:00,16:00,Theory,56,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0188,ECE,3,C,Microprocessors,ECE_Faculty_12,CR-05,Theory,50,Friday,14:00,15:00,Theory,30,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0189,AIML,3,C,Python Programming,AIML_Faculty_07,LAB-07,Lab,60,Tuesday,12:15,13:15,Lab,65,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0190,AIML,8,C,Artificial Intelligence,AIML_Faculty_01,CR-06,Theory,50,Monday,12:15,13:15,Theory,33,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0191,EEE,8,B,Circuit Theory,EEE_Faculty_03,CR-02,Theory,40,Friday,09:00,10:00,Theory,39,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0192,EEE,2,B,Power Electronics,EEE_Faculty_09,CR-06,Theory,50,Friday,09:00,10:00,Theory,53,Yes,No,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0193,ECE,6,A,Digital Electronics,ECE_Faculty_08,CR-02,Theory,40,Tuesday,10:00,11:00,Theory,62,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0194,AIML,6,C,Deep Learning,AIML_Faculty_05,CR-10,Theory,80,Friday,10:00,11:00,Theory,45,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0195,AIML,5,C,Data Mining,AIML_Faculty_03,CR-12,Theory,40,Tuesday,10:00,11:00,Theory,34,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0196,ECE,7,B,Communication Systems,ECE_Faculty_02,CR-11,Theory,70,Monday,12:15,13:15,Theory,57,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0197,CSE,2,C,Computer Networks,CSE_Faculty_08,CR-11,Theory,70,Saturday,15:00,16:00,Theory,47,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0198,EEE,6,B,Control Systems,EEE_Faculty_06,CR-09,Theory,40,Friday,10:00,11:00,Theory,61,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0199,CSE,3,B,Python Programming,CSE_Faculty_08,CR-01,Theory,40,Thursday,10:00,11:00,Theory,33,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0200,ECE,1,B,Signals and Systems,ECE_Faculty_11,CR-05,Theory,50,Saturday,15:00,16:00,Theory,39,Yes,Yes,No,Yes,Yes,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0201,MECH,8,A,Thermodynamics,MECH_Faculty_01,CR-12,Theory,40,Wednesday,09:00,10:00,Theory,52,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0202,CSE,6,B,Database Management,CSE_Faculty_03,CR-07,Theory,40,Tuesday,15:00,16:00,Theory,34,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0203,AIML,3,B,Statistics,AIML_Faculty_10,CR-11,Theory,70,Thursday,10:00,11:00,Theory,30,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0204,ECE,4,B,Signals and Systems,ECE_Faculty_11,CR-02,Theory,40,Tuesday,14:00,15:00,Theory,63,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0205,AIML,4,C,Python Programming,AIML_Faculty_07,CR-05,Theory,50,Saturday,09:00,10:00,Theory,40,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0206,ECE,7,B,Microprocessors,ECE_Faculty_09,LAB-03,Lab,40,Thursday,09:00,10:00,Lab,26,Yes,Yes,No,Yes,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0207,MECH,7,B,Fluid Mechanics,MECH_Faculty_12,CR-07,Theory,40,Monday,15:00,16:00,Theory,59,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0208,AIML,2,B,Python Programming,AIML_Faculty_12,LAB-07,Lab,60,Saturday,10:00,11:00,Lab,28,Yes,No,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0209,AIML,3,C,Machine Learning,AIML_Faculty_01,LAB-03,Lab,40,Thursday,11:15,12:15,Lab,58,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0210,CSE,7,B,Python Programming,CSE_Faculty_09,LAB-02,Lab,30,Wednesday,15:00,16:00,Lab,61,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0211,ECE,5,A,Signals and Systems,ECE_Faculty_10,CR-11,Theory,70,Saturday,09:00,10:00,Theory,39,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0212,AIML,1,C,Deep Learning,AIML_Faculty_12,CR-12,Theory,40,Saturday,12:15,13:15,Theory,39,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0213,ECE,1,A,Digital Electronics,ECE_Faculty_04,CR-09,Theory,40,Monday,12:15,13:15,Theory,29,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0214,ECE,5,C,Signals and Systems,ECE_Faculty_05,CR-12,Theory,40,Friday,10:00,11:00,Theory,54,Yes,No,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0215,AIML,1,A,Machine Learning,AIML_Faculty_09,CR-06,Theory,50,Saturday,15:00,16:00,Theory,25,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0216,CSE,4,B,Data Structures,CSE_Faculty_08,CR-01,Theory,40,Tuesday,15:00,16:00,Theory,42,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0217,CSE,3,C,AI and Machine Learning,CSE_Faculty_07,LAB-02,Lab,30,Friday,14:00,15:00,Lab,28,Yes,No,No,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0218,ECE,4,A,Microprocessors,ECE_Faculty_04,CR-03,Theory,60,Friday,09:00,10:00,Theory,34,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0219,EEE,8,B,Control Systems,EEE_Faculty_02,CR-02,Theory,40,Tuesday,15:00,16:00,Theory,44,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0220,CSE,4,B,Computer Networks,CSE_Faculty_07,CR-09,Theory,40,Monday,15:00,16:00,Theory,44,Yes,No,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0221,CSE,2,A,Operating Systems,CSE_Faculty_02,CR-01,Theory,40,Monday,10:00,11:00,Theory,33,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0222,MECH,2,A,Fluid Mechanics,MECH_Faculty_02,CR-04,Theory,50,Saturday,12:15,13:15,Theory,33,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0223,AIML,7,B,Python Programming,AIML_Faculty_01,CR-07,Theory,40,Saturday,12:15,13:15,Theory,36,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0224,MECH,4,C,Machine Design,MECH_Faculty_05,CR-08,Theory,80,Thursday,14:00,15:00,Theory,55,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0225,AIML,1,B,Statistics,AIML_Faculty_12,CR-06,Theory,50,Thursday,14:00,15:00,Theory,56,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0226,MECH,1,B,Thermodynamics,MECH_Faculty_01,CR-08,Theory,80,Friday,11:15,12:15,Theory,62,No,No,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0227,AIML,7,B,Python Programming,AIML_Faculty_03,CR-03,Theory,60,Tuesday,14:00,15:00,Theory,45,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0228,MECH,8,C,Thermodynamics,MECH_Faculty_05,CR-03,Theory,60,Thursday,09:00,10:00,Theory,30,Yes,Yes,Yes,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0229,AIML,3,B,Artificial Intelligence,AIML_Faculty_01,CR-01,Theory,40,Tuesday,14:00,15:00,Theory,34,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0230,EEE,5,B,Power Electronics,EEE_Faculty_03,LAB-03,Lab,40,Saturday,12:15,13:15,Lab,65,No,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0231,AIML,3,B,Statistics,AIML_Faculty_05,CR-12,Theory,40,Saturday,11:15,12:15,Theory,33,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0232,CSE,6,C,Data Structures,CSE_Faculty_04,CR-11,Theory,70,Friday,09:00,10:00,Theory,56,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0233,CSE,6,B,Computer Networks,CSE_Faculty_01,CR-05,Theory,50,Tuesday,10:00,11:00,Theory,29,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0234,AIML,7,B,Data Mining,AIML_Faculty_09,CR-07,Theory,40,Monday,12:15,13:15,Theory,61,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0235,ECE,2,A,Digital Electronics,ECE_Faculty_06,LAB-03,Lab,40,Thursday,10:00,11:00,Lab,29,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0236,CSE,3,C,Operating Systems,CSE_Faculty_07,CR-03,Theory,60,Monday,09:00,10:00,Theory,46,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0237,ECE,2,A,Microprocessors,ECE_Faculty_07,LAB-08,Lab,40,Tuesday,09:00,10:00,Lab,48,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0238,CSE,3,C,Data Structures,CSE_Faculty_05,CR-02,Theory,40,Thursday,09:00,10:00,Theory,44,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0239,AIML,7,B,Artificial Intelligence,AIML_Faculty_03,CR-08,Theory,80,Monday,11:15,12:15,Theory,53,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0240,CSE,7,C,Python Programming,CSE_Faculty_04,CR-09,Theory,40,Monday,12:15,13:15,Theory,58,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0241,CSE,1,C,Operating Systems,CSE_Faculty_10,CR-09,Theory,40,Friday,15:00,16:00,Theory,64,Yes,No,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0242,AIML,2,C,Deep Learning,AIML_Faculty_07,LAB-04,Lab,40,Saturday,10:00,11:00,Lab,63,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0243,ECE,8,A,VLSI Design,ECE_Faculty_12,CR-10,Theory,80,Friday,14:00,15:00,Theory,51,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0244,CSE,5,C,AI and Machine Learning,CSE_Faculty_06,CR-07,Theory,40,Wednesday,12:15,13:15,Theory,56,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0245,CSE,6,C,Operating Systems,CSE_Faculty_04,CR-01,Theory,40,Saturday,12:15,13:15,Theory,42,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0246,AIML,8,B,Deep Learning,AIML_Faculty_05,LAB-07,Lab,60,Friday,15:00,16:00,Lab,30,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0247,CSE,2,B,AI and Machine Learning,CSE_Faculty_12,CR-09,Theory,40,Thursday,10:00,11:00,Theory,58,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0248,AIML,6,C,Machine Learning,AIML_Faculty_04,CR-05,Theory,50,Wednesday,12:15,13:15,Theory,57,Yes,No,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0249,AIML,6,B,Data Mining,AIML_Faculty_03,CR-05,Theory,50,Saturday,15:00,16:00,Theory,30,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0250,AIML,4,C,Statistics,AIML_Faculty_04,CR-05,Theory,50,Saturday,12:15,13:15,Theory,57,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0251,MECH,4,B,Engineering Mechanics,MECH_Faculty_10,CR-05,Theory,50,Saturday,15:00,16:00,Theory,42,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0252,MECH,7,C,Machine Design,MECH_Faculty_02,CR-01,Theory,40,Friday,15:00,16:00,Theory,48,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0253,ECE,5,B,Microprocessors,ECE_Faculty_11,CR-12,Theory,40,Saturday,11:15,12:15,Theory,37,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0254,EEE,3,C,Control Systems,EEE_Faculty_01,CR-11,Theory,70,Thursday,11:15,12:15,Theory,41,No,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0255,ECE,8,C,Signals and Systems,ECE_Faculty_06,CR-09,Theory,40,Wednesday,10:00,11:00,Theory,60,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0256,ECE,4,C,Digital Electronics,ECE_Faculty_05,LAB-07,Lab,60,Wednesday,11:15,12:15,Lab,41,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0257,MECH,2,B,Machine Design,MECH_Faculty_04,CR-09,Theory,40,Monday,15:00,16:00,Theory,49,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0258,MECH,3,A,Manufacturing Technology,MECH_Faculty_08,LAB-06,Lab,40,Saturday,10:00,11:00,Lab,45,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0259,EEE,3,C,Electrical Machines,EEE_Faculty_07,CR-11,Theory,70,Thursday,12:15,13:15,Theory,52,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0260,ECE,4,A,VLSI Design,ECE_Faculty_11,CR-01,Theory,40,Saturday,15:00,16:00,Theory,40,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0261,ECE,2,A,Signals and Systems,ECE_Faculty_05,CR-05,Theory,50,Thursday,15:00,16:00,Theory,58,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0262,ECE,3,B,Signals and Systems,ECE_Faculty_01,CR-04,Theory,50,Tuesday,15:00,16:00,Theory,33,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0263,CSE,5,C,Operating Systems,CSE_Faculty_10,CR-01,Theory,40,Friday,09:00,10:00,Theory,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0264,MECH,8,C,Fluid Mechanics,MECH_Faculty_03,CR-04,Theory,50,Saturday,15:00,16:00,Theory,65,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0265,EEE,2,B,Electrical Machines,EEE_Faculty_02,CR-02,Theory,40,Thursday,10:00,11:00,Theory,63,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0266,ECE,1,C,Signals and Systems,ECE_Faculty_08,CR-04,Theory,50,Saturday,12:15,13:15,Theory,46,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0267,EEE,2,C,Power Systems,EEE_Faculty_02,CR-12,Theory,40,Saturday,09:00,10:00,Theory,41,Yes,Yes,Yes,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0268,CSE,6,C,Database Management,CSE_Faculty_06,CR-07,Theory,40,Saturday,09:00,10:00,Theory,31,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0269,ECE,5,C,Microprocessors,ECE_Faculty_02,CR-06,Theory,50,Wednesday,10:00,11:00,Theory,32,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0270,EEE,2,A,Power Systems,EEE_Faculty_12,CR-12,Theory,40,Monday,10:00,11:00,Theory,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0271,ECE,1,C,VLSI Design,ECE_Faculty_12,CR-03,Theory,60,Thursday,12:15,13:15,Theory,32,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0272,MECH,4,C,Machine Design,MECH_Faculty_06,CR-09,Theory,40,Friday,15:00,16:00,Theory,64,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0273,AIML,1,A,Python Programming,AIML_Faculty_11,CR-03,Theory,60,Friday,12:15,13:15,Theory,56,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0274,CSE,7,B,AI and Machine Learning,CSE_Faculty_04,LAB-02,Lab,30,Thursday,12:15,13:15,Lab,61,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0275,CSE,7,A,Operating Systems,CSE_Faculty_09,CR-09,Theory,40,Monday,09:00,10:00,Theory,63,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0276,ECE,4,B,Microprocessors,ECE_Faculty_06,CR-09,Theory,40,Friday,14:00,15:00,Theory,55,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0277,CSE,6,C,Database Management,CSE_Faculty_05,CR-09,Theory,40,Friday,11:15,12:15,Theory,31,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0278,CSE,4,A,Database Management,CSE_Faculty_02,CR-07,Theory,40,Tuesday,12:15,13:15,Theory,37,Yes,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0279,EEE,3,B,Circuit Theory,EEE_Faculty_01,CR-09,Theory,40,Saturday,09:00,10:00,Theory,60,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0280,MECH,3,A,Thermodynamics,MECH_Faculty_07,CR-11,Theory,70,Friday,14:00,15:00,Theory,45,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0281,EEE,5,B,Control Systems,EEE_Faculty_03,CR-03,Theory,60,Thursday,14:00,15:00,Theory,57,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0282,AIML,5,C,Deep Learning,AIML_Faculty_06,LAB-03,Lab,40,Saturday,15:00,16:00,Lab,36,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0283,EEE,7,C,Power Electronics,EEE_Faculty_12,CR-09,Theory,40,Wednesday,12:15,13:15,Theory,25,Yes,Yes,Yes,Yes,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0284,AIML,5,A,Artificial Intelligence,AIML_Faculty_01,CR-12,Theory,40,Wednesday,10:00,11:00,Theory,59,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0285,MECH,5,C,Manufacturing Technology,MECH_Faculty_11,LAB-01,Lab,30,Thursday,12:15,13:15,Lab,51,No,No,Yes,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0286,AIML,8,A,Python Programming,AIML_Faculty_11,CR-12,Theory,40,Saturday,15:00,16:00,Theory,48,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0287,ECE,3,C,Communication Systems,ECE_Faculty_02,CR-03,Theory,60,Tuesday,15:00,16:00,Theory,57,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0288,ECE,3,A,Digital Electronics,ECE_Faculty_03,LAB-06,Lab,40,Friday,09:00,10:00,Lab,65,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0289,ECE,4,A,VLSI Design,ECE_Faculty_09,CR-02,Theory,40,Friday,10:00,11:00,Theory,51,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0290,ECE,8,C,Microprocessors,ECE_Faculty_11,LAB-01,Lab,30,Monday,15:00,16:00,Lab,47,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0291,ECE,2,B,Communication Systems,ECE_Faculty_05,CR-09,Theory,40,Saturday,11:15,12:15,Theory,26,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0292,CSE,4,B,Database Management,CSE_Faculty_09,CR-02,Theory,40,Monday,10:00,11:00,Theory,59,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0293,CSE,7,C,Data Structures,CSE_Faculty_02,CR-12,Theory,40,Saturday,10:00,11:00,Theory,26,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0294,MECH,4,B,Engineering Mechanics,MECH_Faculty_07,CR-07,Theory,40,Thursday,15:00,16:00,Theory,50,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0295,MECH,2,B,Engineering Mechanics,MECH_Faculty_09,CR-02,Theory,40,Wednesday,15:00,16:00,Theory,44,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0296,EEE,4,A,Power Systems,EEE_Faculty_12,CR-07,Theory,40,Friday,11:15,12:15,Theory,65,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0297,MECH,3,A,Machine Design,MECH_Faculty_01,CR-01,Theory,40,Friday,14:00,15:00,Theory,50,Yes,No,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0298,AIML,3,A,Data Mining,AIML_Faculty_03,CR-04,Theory,50,Friday,11:15,12:15,Theory,37,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0299,EEE,2,B,Power Electronics,EEE_Faculty_02,LAB-04,Lab,40,Saturday,14:00,15:00,Lab,56,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0300,AIML,8,B,Artificial Intelligence,AIML_Faculty_06,CR-10,Theory,80,Saturday,11:15,12:15,Theory,62,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0301,AIML,7,B,Deep Learning,AIML_Faculty_06,CR-03,Theory,60,Saturday,15:00,16:00,Theory,46,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0302,AIML,2,B,Statistics,AIML_Faculty_03,CR-09,Theory,40,Tuesday,11:15,12:15,Theory,65,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0303,MECH,1,C,Thermodynamics,MECH_Faculty_05,CR-09,Theory,40,Friday,12:15,13:15,Theory,34,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0304,MECH,2,B,Machine Design,MECH_Faculty_06,CR-09,Theory,40,Monday,15:00,16:00,Theory,40,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0305,EEE,3,C,Power Systems,EEE_Faculty_10,CR-11,Theory,70,Tuesday,15:00,16:00,Theory,55,No,Yes,No,No,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0306,CSE,4,C,Computer Networks,CSE_Faculty_06,CR-07,Theory,40,Thursday,12:15,13:15,Theory,27,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0307,ECE,3,B,VLSI Design,ECE_Faculty_11,CR-07,Theory,40,Wednesday,14:00,15:00,Theory,29,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0308,EEE,1,C,Circuit Theory,EEE_Faculty_03,CR-08,Theory,80,Tuesday,10:00,11:00,Theory,29,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0309,CSE,4,B,Computer Networks,CSE_Faculty_06,CR-12,Theory,40,Monday,12:15,13:15,Theory,55,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0310,AIML,3,C,Python Programming,AIML_Faculty_09,CR-01,Theory,40,Friday,10:00,11:00,Theory,28,Yes,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0311,ECE,8,B,Digital Electronics,ECE_Faculty_03,LAB-04,Lab,40,Thursday,14:00,15:00,Lab,34,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0312,ECE,2,A,Communication Systems,ECE_Faculty_07,CR-07,Theory,40,Tuesday,09:00,10:00,Theory,26,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0313,CSE,8,C,Data Structures,CSE_Faculty_10,CR-01,Theory,40,Friday,14:00,15:00,Theory,32,Yes,Yes,Yes,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0314,MECH,1,C,Manufacturing Technology,MECH_Faculty_09,LAB-07,Lab,60,Tuesday,12:15,13:15,Lab,49,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0315,EEE,2,B,Power Systems,EEE_Faculty_10,CR-09,Theory,40,Thursday,11:15,12:15,Theory,37,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0316,EEE,6,B,Power Systems,EEE_Faculty_06,CR-02,Theory,40,Tuesday,12:15,13:15,Theory,62,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0317,AIML,8,A,Data Mining,AIML_Faculty_06,CR-09,Theory,40,Friday,12:15,13:15,Theory,41,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0318,AIML,3,A,Data Mining,AIML_Faculty_04,CR-09,Theory,40,Thursday,11:15,12:15,Theory,60,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0319,CSE,8,C,Data Structures,CSE_Faculty_07,CR-02,Theory,40,Monday,11:15,12:15,Theory,39,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0320,MECH,1,A,Fluid Mechanics,MECH_Faculty_11,CR-08,Theory,80,Thursday,09:00,10:00,Theory,37,Yes,No,Yes,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0321,MECH,1,B,Thermodynamics,MECH_Faculty_04,CR-11,Theory,70,Monday,10:00,11:00,Theory,30,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0322,MECH,2,A,Engineering Mechanics,MECH_Faculty_09,CR-05,Theory,50,Saturday,14:00,15:00,Theory,62,Yes,No,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0323,EEE,3,B,Power Electronics,EEE_Faculty_09,LAB-02,Lab,30,Friday,09:00,10:00,Lab,57,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0324,EEE,8,A,Circuit Theory,EEE_Faculty_06,CR-08,Theory,80,Saturday,12:15,13:15,Theory,62,Yes,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0325,AIML,7,B,Artificial Intelligence,AIML_Faculty_09,CR-09,Theory,40,Monday,15:00,16:00,Theory,41,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0326,EEE,6,A,Control Systems,EEE_Faculty_10,CR-05,Theory,50,Tuesday,15:00,16:00,Theory,37,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0327,AIML,6,A,Deep Learning,AIML_Faculty_02,CR-02,Theory,40,Monday,15:00,16:00,Theory,56,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0328,MECH,8,C,Fluid Mechanics,MECH_Faculty_05,CR-08,Theory,80,Tuesday,14:00,15:00,Theory,42,Yes,Yes,No,Yes,Yes,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0329,MECH,6,B,Engineering Mechanics,MECH_Faculty_11,CR-03,Theory,60,Thursday,09:00,10:00,Theory,58,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0330,ECE,5,A,Microprocessors,ECE_Faculty_09,CR-05,Theory,50,Tuesday,11:15,12:15,Theory,55,No,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0331,ECE,5,B,Communication Systems,ECE_Faculty_03,CR-10,Theory,80,Tuesday,14:00,15:00,Theory,39,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0332,AIML,3,B,Statistics,AIML_Faculty_01,CR-03,Theory,60,Thursday,12:15,13:15,Theory,33,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0333,ECE,1,B,Microprocessors,ECE_Faculty_02,CR-12,Theory,40,Tuesday,09:00,10:00,Theory,38,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0334,ECE,5,B,Microprocessors,ECE_Faculty_01,CR-07,Theory,40,Monday,11:15,12:15,Theory,63,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0335,ECE,8,C,Microprocessors,ECE_Faculty_08,CR-02,Theory,40,Thursday,14:00,15:00,Theory,43,Yes,No,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0336,MECH,7,A,Machine Design,MECH_Faculty_02,CR-03,Theory,60,Wednesday,10:00,11:00,Theory,45,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0337,ECE,8,B,VLSI Design,ECE_Faculty_03,CR-03,Theory,60,Monday,10:00,11:00,Theory,40,Yes,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0338,CSE,8,C,Python Programming,CSE_Faculty_01,LAB-01,Lab,30,Thursday,14:00,15:00,Lab,30,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0339,AIML,8,C,Deep Learning,AIML_Faculty_03,CR-03,Theory,60,Friday,10:00,11:00,Theory,26,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0340,ECE,8,A,VLSI Design,ECE_Faculty_12,CR-09,Theory,40,Tuesday,14:00,15:00,Theory,63,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0341,ECE,4,A,Communication Systems,ECE_Faculty_08,CR-05,Theory,50,Wednesday,12:15,13:15,Theory,41,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0342,ECE,1,C,Communication Systems,ECE_Faculty_08,CR-08,Theory,80,Wednesday,09:00,10:00,Theory,52,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0343,EEE,4,A,Circuit Theory,EEE_Faculty_12,CR-12,Theory,40,Saturday,12:15,13:15,Theory,49,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0344,ECE,5,B,VLSI Design,ECE_Faculty_04,CR-02,Theory,40,Tuesday,10:00,11:00,Theory,43,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0345,ECE,1,A,Digital Electronics,ECE_Faculty_02,LAB-05,Lab,30,Wednesday,10:00,11:00,Lab,53,Yes,Yes,No,Yes,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0346,ECE,6,B,Communication Systems,ECE_Faculty_12,CR-01,Theory,40,Wednesday,09:00,10:00,Theory,34,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0347,EEE,2,C,Electrical Machines,EEE_Faculty_04,CR-07,Theory,40,Thursday,10:00,11:00,Theory,27,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0348,EEE,6,A,Control Systems,EEE_Faculty_11,CR-12,Theory,40,Monday,15:00,16:00,Theory,60,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0349,AIML,7,B,Machine Learning,AIML_Faculty_01,LAB-03,Lab,40,Wednesday,14:00,15:00,Lab,32,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0350,MECH,6,A,Thermodynamics,MECH_Faculty_04,CR-03,Theory,60,Thursday,09:00,10:00,Theory,64,Yes,No,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0351,MECH,3,B,Engineering Mechanics,MECH_Faculty_04,CR-06,Theory,50,Friday,15:00,16:00,Theory,47,Yes,Yes,No,Yes,Yes,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0352,ECE,8,C,Digital Electronics,ECE_Faculty_05,CR-09,Theory,40,Saturday,12:15,13:15,Theory,37,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0353,MECH,2,C,Thermodynamics,MECH_Faculty_03,CR-08,Theory,80,Wednesday,11:15,12:15,Theory,59,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0354,MECH,4,B,Fluid Mechanics,MECH_Faculty_12,CR-02,Theory,40,Saturday,14:00,15:00,Theory,49,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0355,ECE,2,A,Digital Electronics,ECE_Faculty_03,LAB-03,Lab,40,Monday,10:00,11:00,Lab,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0356,MECH,5,A,Machine Design,MECH_Faculty_06,CR-04,Theory,50,Friday,15:00,16:00,Theory,29,Yes,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0357,EEE,6,C,Electrical Machines,EEE_Faculty_12,CR-07,Theory,40,Wednesday,15:00,16:00,Theory,28,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0358,AIML,4,C,Python Programming,AIML_Faculty_07,LAB-04,Lab,40,Tuesday,14:00,15:00,Lab,40,Yes,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0359,MECH,8,C,Fluid Mechanics,MECH_Faculty_11,CR-07,Theory,40,Monday,10:00,11:00,Theory,36,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0360,ECE,6,B,Microprocessors,ECE_Faculty_07,CR-11,Theory,70,Thursday,15:00,16:00,Theory,45,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0361,ECE,8,B,Microprocessors,ECE_Faculty_01,CR-12,Theory,40,Monday,11:15,12:15,Theory,63,Yes,Yes,No,Yes,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0362,ECE,5,C,Digital Electronics,ECE_Faculty_09,CR-09,Theory,40,Friday,14:00,15:00,Theory,34,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0363,AIML,5,A,Deep Learning,AIML_Faculty_10,LAB-07,Lab,60,Friday,10:00,11:00,Lab,29,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0364,MECH,5,A,Engineering Mechanics,MECH_Faculty_12,CR-10,Theory,80,Thursday,09:00,10:00,Theory,28,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0365,MECH,7,A,Engineering Mechanics,MECH_Faculty_05,CR-09,Theory,40,Monday,11:15,12:15,Theory,59,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0366,EEE,2,A,Power Electronics,EEE_Faculty_07,CR-05,Theory,50,Thursday,10:00,11:00,Theory,33,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0367,EEE,3,A,Power Electronics,EEE_Faculty_08,CR-09,Theory,40,Tuesday,12:15,13:15,Theory,50,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0368,CSE,7,B,Database Management,CSE_Faculty_11,CR-10,Theory,80,Monday,09:00,10:00,Theory,51,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0369,AIML,8,C,Artificial Intelligence,AIML_Faculty_03,CR-08,Theory,80,Monday,10:00,11:00,Theory,37,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0370,AIML,5,A,Python Programming,AIML_Faculty_06,CR-12,Theory,40,Monday,11:15,12:15,Theory,53,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0371,MECH,3,C,Manufacturing Technology,MECH_Faculty_12,CR-11,Theory,70,Monday,12:15,13:15,Theory,62,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0372,CSE,1,A,Operating Systems,CSE_Faculty_07,CR-11,Theory,70,Wednesday,15:00,16:00,Theory,48,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0373,CSE,8,C,Database Management,CSE_Faculty_09,CR-02,Theory,40,Tuesday,10:00,11:00,Theory,57,No,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0374,ECE,7,C,Communication Systems,ECE_Faculty_03,CR-01,Theory,40,Wednesday,15:00,16:00,Theory,47,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0375,EEE,5,A,Electrical Machines,EEE_Faculty_03,CR-06,Theory,50,Thursday,15:00,16:00,Theory,33,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0376,EEE,3,B,Power Systems,EEE_Faculty_05,CR-10,Theory,80,Wednesday,12:15,13:15,Theory,59,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0377,ECE,3,B,VLSI Design,ECE_Faculty_03,CR-11,Theory,70,Friday,10:00,11:00,Theory,45,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0378,CSE,7,B,Database Management,CSE_Faculty_05,CR-08,Theory,80,Saturday,15:00,16:00,Theory,42,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0379,MECH,4,C,Fluid Mechanics,MECH_Faculty_04,CR-04,Theory,50,Saturday,09:00,10:00,Theory,47,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0380,ECE,7,B,Signals and Systems,ECE_Faculty_08,CR-03,Theory,60,Tuesday,10:00,11:00,Theory,39,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0381,AIML,8,C,Deep Learning,AIML_Faculty_08,LAB-06,Lab,40,Thursday,10:00,11:00,Lab,52,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0382,MECH,1,C,Machine Design,MECH_Faculty_02,CR-08,Theory,80,Thursday,09:00,10:00,Theory,40,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0383,AIML,8,B,Artificial Intelligence,AIML_Faculty_05,CR-05,Theory,50,Thursday,10:00,11:00,Theory,52,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0384,CSE,2,A,Computer Networks,CSE_Faculty_10,CR-12,Theory,40,Friday,10:00,11:00,Theory,50,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0385,EEE,5,B,Electrical Machines,EEE_Faculty_12,CR-11,Theory,70,Saturday,10:00,11:00,Theory,32,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0386,MECH,3,B,Machine Design,MECH_Faculty_09,CR-07,Theory,40,Monday,10:00,11:00,Theory,46,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0387,EEE,5,C,Control Systems,EEE_Faculty_08,CR-05,Theory,50,Saturday,10:00,11:00,Theory,32,Yes,No,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0388,EEE,1,C,Circuit Theory,EEE_Faculty_08,CR-04,Theory,50,Tuesday,14:00,15:00,Theory,55,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0389,MECH,4,A,Machine Design,MECH_Faculty_03,CR-03,Theory,60,Monday,15:00,16:00,Theory,47,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0390,CSE,3,A,Python Programming,CSE_Faculty_11,LAB-05,Lab,30,Friday,15:00,16:00,Lab,63,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0391,CSE,6,B,Database Management,CSE_Faculty_07,CR-02,Theory,40,Thursday,14:00,15:00,Theory,29,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0392,MECH,4,C,Thermodynamics,MECH_Faculty_01,CR-02,Theory,40,Friday,15:00,16:00,Theory,65,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0393,EEE,5,C,Power Electronics,EEE_Faculty_10,CR-10,Theory,80,Wednesday,10:00,11:00,Theory,64,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0394,AIML,5,A,Statistics,AIML_Faculty_01,CR-02,Theory,40,Monday,12:15,13:15,Theory,65,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0395,CSE,6,C,Database Management,CSE_Faculty_11,CR-04,Theory,50,Monday,15:00,16:00,Theory,37,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0396,CSE,6,B,Python Programming,CSE_Faculty_12,CR-10,Theory,80,Friday,09:00,10:00,Theory,36,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0397,AIML,8,C,Data Mining,AIML_Faculty_06,LAB-08,Lab,40,Thursday,15:00,16:00,Lab,28,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0398,AIML,6,A,Python Programming,AIML_Faculty_03,CR-05,Theory,50,Monday,11:15,12:15,Theory,49,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0399,ECE,5,B,Microprocessors,ECE_Faculty_02,CR-08,Theory,80,Tuesday,11:15,12:15,Theory,53,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0400,AIML,1,B,Machine Learning,AIML_Faculty_09,CR-03,Theory,60,Tuesday,11:15,12:15,Theory,55,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0401,AIML,8,B,Deep Learning,AIML_Faculty_12,CR-09,Theory,40,Monday,09:00,10:00,Theory,44,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0402,CSE,5,A,AI and Machine Learning,CSE_Faculty_10,CR-05,Theory,50,Saturday,10:00,11:00,Theory,45,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0403,ECE,3,B,Signals and Systems,ECE_Faculty_02,CR-01,Theory,40,Friday,14:00,15:00,Theory,57,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0404,MECH,3,A,Thermodynamics,MECH_Faculty_05,CR-10,Theory,80,Wednesday,14:00,15:00,Theory,53,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0405,EEE,3,C,Circuit Theory,EEE_Faculty_10,CR-10,Theory,80,Saturday,15:00,16:00,Theory,53,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0406,CSE,3,A,Operating Systems,CSE_Faculty_12,CR-08,Theory,80,Monday,12:15,13:15,Theory,44,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0407,MECH,6,B,Fluid Mechanics,MECH_Faculty_03,CR-12,Theory,40,Saturday,11:15,12:15,Theory,45,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0408,ECE,3,C,Microprocessors,ECE_Faculty_02,CR-07,Theory,40,Saturday,09:00,10:00,Theory,45,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0409,AIML,3,B,Python Programming,AIML_Faculty_07,LAB-02,Lab,30,Wednesday,10:00,11:00,Lab,62,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0410,AIML,2,C,Statistics,AIML_Faculty_12,CR-10,Theory,80,Thursday,09:00,10:00,Theory,62,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0411,CSE,7,B,AI and Machine Learning,CSE_Faculty_08,LAB-01,Lab,30,Monday,10:00,11:00,Lab,33,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0412,EEE,8,A,Power Electronics,EEE_Faculty_04,LAB-06,Lab,40,Wednesday,14:00,15:00,Lab,44,No,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0413,MECH,7,A,Engineering Mechanics,MECH_Faculty_05,CR-01,Theory,40,Wednesday,14:00,15:00,Theory,28,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0414,AIML,7,C,Data Mining,AIML_Faculty_06,CR-12,Theory,40,Thursday,12:15,13:15,Theory,49,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0415,ECE,3,B,Communication Systems,ECE_Faculty_11,CR-03,Theory,60,Tuesday,09:00,10:00,Theory,29,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0416,CSE,7,B,Data Structures,CSE_Faculty_12,CR-10,Theory,80,Thursday,14:00,15:00,Theory,36,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0417,MECH,8,C,Engineering Mechanics,MECH_Faculty_04,CR-12,Theory,40,Friday,11:15,12:15,Theory,51,No,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0418,CSE,2,A,AI and Machine Learning,CSE_Faculty_12,CR-12,Theory,40,Friday,11:15,12:15,Theory,54,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0419,MECH,5,C,Machine Design,MECH_Faculty_01,CR-06,Theory,50,Friday,09:00,10:00,Theory,55,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0420,ECE,1,C,Signals and Systems,ECE_Faculty_10,CR-12,Theory,40,Wednesday,15:00,16:00,Theory,61,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0421,MECH,5,B,Engineering Mechanics,MECH_Faculty_02,CR-03,Theory,60,Friday,09:00,10:00,Theory,42,Yes,Yes,Yes,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0422,MECH,3,C,Thermodynamics,MECH_Faculty_08,CR-06,Theory,50,Tuesday,11:15,12:15,Theory,40,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0423,MECH,8,B,Thermodynamics,MECH_Faculty_07,CR-04,Theory,50,Saturday,12:15,13:15,Theory,65,Yes,Yes,No,Yes,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0424,CSE,8,B,Data Structures,CSE_Faculty_08,CR-05,Theory,50,Thursday,15:00,16:00,Theory,59,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0425,CSE,8,B,Database Management,CSE_Faculty_11,CR-06,Theory,50,Friday,15:00,16:00,Theory,27,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0426,ECE,2,B,Microprocessors,ECE_Faculty_11,LAB-07,Lab,60,Thursday,15:00,16:00,Lab,40,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0427,ECE,1,C,VLSI Design,ECE_Faculty_01,CR-02,Theory,40,Monday,12:15,13:15,Theory,31,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0428,CSE,1,C,Python Programming,CSE_Faculty_11,CR-04,Theory,50,Friday,15:00,16:00,Theory,32,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0429,MECH,2,C,Thermodynamics,MECH_Faculty_03,CR-05,Theory,50,Wednesday,12:15,13:15,Theory,29,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0430,ECE,2,B,Signals and Systems,ECE_Faculty_01,CR-07,Theory,40,Thursday,11:15,12:15,Theory,28,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0431,MECH,8,A,Manufacturing Technology,MECH_Faculty_03,LAB-07,Lab,60,Tuesday,14:00,15:00,Lab,31,No,Yes,No,Yes,Yes,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0432,EEE,8,A,Electrical Machines,EEE_Faculty_11,CR-11,Theory,70,Monday,09:00,10:00,Theory,49,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0433,EEE,7,C,Circuit Theory,EEE_Faculty_02,CR-09,Theory,40,Tuesday,09:00,10:00,Theory,49,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0434,ECE,2,B,Microprocessors,ECE_Faculty_09,LAB-06,Lab,40,Monday,12:15,13:15,Lab,43,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0435,EEE,6,B,Electrical Machines,EEE_Faculty_02,CR-11,Theory,70,Thursday,15:00,16:00,Theory,37,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0436,CSE,8,C,AI and Machine Learning,CSE_Faculty_08,CR-01,Theory,40,Monday,11:15,12:15,Theory,28,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0437,MECH,3,C,Manufacturing Technology,MECH_Faculty_10,CR-04,Theory,50,Monday,09:00,10:00,Theory,34,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0438,CSE,1,B,Data Structures,CSE_Faculty_02,CR-08,Theory,80,Friday,10:00,11:00,Theory,62,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0439,CSE,7,B,Data Structures,CSE_Faculty_12,CR-11,Theory,70,Thursday,11:15,12:15,Theory,32,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0440,CSE,2,A,AI and Machine Learning,CSE_Faculty_05,LAB-03,Lab,40,Thursday,10:00,11:00,Lab,48,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0441,AIML,2,A,Machine Learning,AIML_Faculty_01,CR-03,Theory,60,Monday,15:00,16:00,Theory,62,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0442,MECH,3,C,Manufacturing Technology,MECH_Faculty_12,LAB-01,Lab,30,Friday,10:00,11:00,Lab,56,Yes,Yes,Yes,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0443,AIML,2,C,Machine Learning,AIML_Faculty_06,CR-09,Theory,40,Friday,10:00,11:00,Theory,54,Yes,Yes,No,Yes,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0444,EEE,3,A,Circuit Theory,EEE_Faculty_11,CR-01,Theory,40,Monday,15:00,16:00,Theory,48,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0445,CSE,3,A,Python Programming,CSE_Faculty_01,CR-08,Theory,80,Friday,09:00,10:00,Theory,29,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0446,ECE,2,B,Signals and Systems,ECE_Faculty_04,CR-02,Theory,40,Tuesday,15:00,16:00,Theory,51,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0447,EEE,4,C,Power Systems,EEE_Faculty_08,CR-03,Theory,60,Thursday,11:15,12:15,Theory,33,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0448,CSE,1,B,Computer Networks,CSE_Faculty_03,CR-02,Theory,40,Thursday,12:15,13:15,Theory,51,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0449,MECH,4,A,Machine Design,MECH_Faculty_07,CR-09,Theory,40,Thursday,10:00,11:00,Theory,62,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0450,AIML,7,C,Artificial Intelligence,AIML_Faculty_04,CR-10,Theory,80,Tuesday,14:00,15:00,Theory,25,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0451,MECH,2,B,Manufacturing Technology,MECH_Faculty_08,CR-04,Theory,50,Monday,14:00,15:00,Theory,25,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0452,CSE,5,A,Python Programming,CSE_Faculty_12,CR-08,Theory,80,Friday,15:00,16:00,Theory,62,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0453,EEE,2,B,Electrical Machines,EEE_Faculty_12,CR-06,Theory,50,Friday,09:00,10:00,Theory,43,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0454,CSE,1,C,AI and Machine Learning,CSE_Faculty_11,CR-06,Theory,50,Monday,09:00,10:00,Theory,49,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0455,CSE,4,A,AI and Machine Learning,CSE_Faculty_06,CR-04,Theory,50,Friday,09:00,10:00,Theory,55,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0456,ECE,7,B,Microprocessors,ECE_Faculty_01,CR-02,Theory,40,Wednesday,11:15,12:15,Theory,53,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0457,EEE,2,A,Power Electronics,EEE_Faculty_08,LAB-02,Lab,30,Monday,12:15,13:15,Lab,36,Yes,No,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0458,EEE,4,C,Power Systems,EEE_Faculty_11,CR-01,Theory,40,Wednesday,12:15,13:15,Theory,59,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0459,AIML,4,C,Machine Learning,AIML_Faculty_11,LAB-06,Lab,40,Thursday,14:00,15:00,Lab,46,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0460,EEE,3,B,Control Systems,EEE_Faculty_03,CR-05,Theory,50,Tuesday,12:15,13:15,Theory,48,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0461,MECH,5,A,Thermodynamics,MECH_Faculty_03,CR-12,Theory,40,Saturday,15:00,16:00,Theory,34,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0462,AIML,1,C,Deep Learning,AIML_Faculty_06,CR-06,Theory,50,Tuesday,11:15,12:15,Theory,53,Yes,Yes,Yes,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0463,AIML,3,A,Data Mining,AIML_Faculty_12,CR-09,Theory,40,Friday,11:15,12:15,Theory,43,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0464,ECE,1,A,Digital Electronics,ECE_Faculty_11,CR-09,Theory,40,Monday,11:15,12:15,Theory,26,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0465,AIML,5,A,Python Programming,AIML_Faculty_01,CR-02,Theory,40,Friday,12:15,13:15,Theory,30,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0466,ECE,3,C,Communication Systems,ECE_Faculty_07,CR-06,Theory,50,Thursday,11:15,12:15,Theory,25,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0467,EEE,8,B,Circuit Theory,EEE_Faculty_03,CR-12,Theory,40,Thursday,15:00,16:00,Theory,51,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0468,CSE,2,A,AI and Machine Learning,CSE_Faculty_07,CR-11,Theory,70,Wednesday,12:15,13:15,Theory,36,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0469,MECH,5,C,Manufacturing Technology,MECH_Faculty_05,LAB-08,Lab,40,Friday,15:00,16:00,Lab,54,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0470,CSE,5,B,Computer Networks,CSE_Faculty_03,CR-08,Theory,80,Saturday,15:00,16:00,Theory,40,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0471,ECE,8,C,VLSI Design,ECE_Faculty_07,CR-05,Theory,50,Saturday,15:00,16:00,Theory,55,No,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0472,AIML,6,B,Python Programming,AIML_Faculty_12,LAB-03,Lab,40,Wednesday,10:00,11:00,Lab,28,Yes,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0473,MECH,3,A,Thermodynamics,MECH_Faculty_10,CR-03,Theory,60,Friday,11:15,12:15,Theory,45,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0474,CSE,3,A,AI and Machine Learning,CSE_Faculty_03,CR-09,Theory,40,Wednesday,11:15,12:15,Theory,56,Yes,No,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0475,AIML,2,B,Python Programming,AIML_Faculty_08,CR-02,Theory,40,Monday,10:00,11:00,Theory,26,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0476,MECH,3,C,Fluid Mechanics,MECH_Faculty_05,CR-01,Theory,40,Saturday,09:00,10:00,Theory,39,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0477,CSE,2,A,Operating Systems,CSE_Faculty_01,CR-08,Theory,80,Thursday,09:00,10:00,Theory,37,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0478,CSE,1,A,Python Programming,CSE_Faculty_02,LAB-04,Lab,40,Friday,10:00,11:00,Lab,36,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0479,ECE,4,C,Microprocessors,ECE_Faculty_10,LAB-02,Lab,30,Monday,14:00,15:00,Lab,25,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0480,CSE,8,B,Data Structures,CSE_Faculty_12,CR-10,Theory,80,Tuesday,12:15,13:15,Theory,31,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0481,CSE,2,B,Database Management,CSE_Faculty_02,CR-09,Theory,40,Tuesday,12:15,13:15,Theory,48,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0482,ECE,5,C,Communication Systems,ECE_Faculty_08,CR-04,Theory,50,Friday,12:15,13:15,Theory,43,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0483,AIML,8,C,Machine Learning,AIML_Faculty_02,CR-07,Theory,40,Thursday,14:00,15:00,Theory,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0484,CSE,4,B,Database Management,CSE_Faculty_04,CR-10,Theory,80,Thursday,09:00,10:00,Theory,39,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0485,ECE,6,B,Communication Systems,ECE_Faculty_11,CR-10,Theory,80,Thursday,12:15,13:15,Theory,57,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0486,AIML,1,A,Machine Learning,AIML_Faculty_08,LAB-01,Lab,30,Tuesday,12:15,13:15,Lab,63,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0487,EEE,5,C,Power Systems,EEE_Faculty_08,CR-08,Theory,80,Friday,11:15,12:15,Theory,59,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0488,CSE,8,B,Operating Systems,CSE_Faculty_07,CR-08,Theory,80,Thursday,09:00,10:00,Theory,27,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0489,AIML,7,B,Artificial Intelligence,AIML_Faculty_02,CR-10,Theory,80,Saturday,12:15,13:15,Theory,60,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0490,EEE,8,C,Control Systems,EEE_Faculty_07,CR-10,Theory,80,Saturday,11:15,12:15,Theory,43,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0491,MECH,6,B,Engineering Mechanics,MECH_Faculty_02,CR-07,Theory,40,Wednesday,11:15,12:15,Theory,51,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0492,CSE,2,B,Database Management,CSE_Faculty_03,CR-01,Theory,40,Friday,11:15,12:15,Theory,27,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0493,EEE,6,B,Power Electronics,EEE_Faculty_10,LAB-07,Lab,60,Wednesday,14:00,15:00,Lab,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0494,ECE,5,B,Signals and Systems,ECE_Faculty_07,CR-04,Theory,50,Thursday,15:00,16:00,Theory,29,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0495,EEE,2,C,Power Systems,EEE_Faculty_10,CR-02,Theory,40,Friday,11:15,12:15,Theory,42,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0496,ECE,5,B,VLSI Design,ECE_Faculty_11,CR-09,Theory,40,Wednesday,10:00,11:00,Theory,51,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0497,MECH,8,A,Thermodynamics,MECH_Faculty_11,CR-12,Theory,40,Thursday,11:15,12:15,Theory,65,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0498,MECH,6,B,Thermodynamics,MECH_Faculty_03,CR-04,Theory,50,Tuesday,15:00,16:00,Theory,44,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0499,ECE,5,C,Signals and Systems,ECE_Faculty_10,CR-04,Theory,50,Thursday,10:00,11:00,Theory,32,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0500,EEE,4,A,Electrical Machines,EEE_Faculty_05,CR-03,Theory,60,Monday,11:15,12:15,Theory,42,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0501,CSE,5,A,Python Programming,CSE_Faculty_07,LAB-06,Lab,40,Saturday,15:00,16:00,Lab,30,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0502,CSE,5,B,AI and Machine Learning,CSE_Faculty_02,CR-04,Theory,50,Friday,09:00,10:00,Theory,45,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0503,AIML,4,B,Deep Learning,AIML_Faculty_08,LAB-07,Lab,60,Wednesday,14:00,15:00,Lab,28,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0504,AIML,3,B,Artificial Intelligence,AIML_Faculty_08,CR-12,Theory,40,Wednesday,11:15,12:15,Theory,26,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0505,AIML,7,B,Artificial Intelligence,AIML_Faculty_11,CR-12,Theory,40,Wednesday,15:00,16:00,Theory,32,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0506,ECE,4,B,Microprocessors,ECE_Faculty_04,LAB-03,Lab,40,Thursday,15:00,16:00,Lab,45,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0507,EEE,7,B,Circuit Theory,EEE_Faculty_12,CR-07,Theory,40,Monday,10:00,11:00,Theory,41,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0508,EEE,1,C,Electrical Machines,EEE_Faculty_11,CR-03,Theory,60,Saturday,12:15,13:15,Theory,33,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0509,AIML,3,C,Python Programming,AIML_Faculty_11,CR-07,Theory,40,Wednesday,12:15,13:15,Theory,55,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0510,AIML,3,B,Machine Learning,AIML_Faculty_07,LAB-04,Lab,40,Monday,09:00,10:00,Lab,60,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0511,CSE,7,C,Operating Systems,CSE_Faculty_05,CR-03,Theory,60,Monday,11:15,12:15,Theory,35,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0512,EEE,4,C,Electrical Machines,EEE_Faculty_04,CR-04,Theory,50,Wednesday,11:15,12:15,Theory,56,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0513,AIML,3,A,Data Mining,AIML_Faculty_05,LAB-05,Lab,30,Tuesday,14:00,15:00,Lab,53,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0514,AIML,7,C,Artificial Intelligence,AIML_Faculty_04,CR-12,Theory,40,Thursday,15:00,16:00,Theory,52,Yes,Yes,Yes,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0515,EEE,1,A,Control Systems,EEE_Faculty_05,CR-09,Theory,40,Friday,12:15,13:15,Theory,44,No,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0516,ECE,8,B,Signals and Systems,ECE_Faculty_08,CR-03,Theory,60,Monday,11:15,12:15,Theory,58,Yes,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0517,ECE,5,B,Communication Systems,ECE_Faculty_10,CR-05,Theory,50,Friday,11:15,12:15,Theory,52,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0518,CSE,3,A,Data Structures,CSE_Faculty_04,CR-03,Theory,60,Monday,12:15,13:15,Theory,41,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0519,EEE,8,B,Control Systems,EEE_Faculty_08,CR-02,Theory,40,Saturday,10:00,11:00,Theory,32,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0520,ECE,4,C,VLSI Design,ECE_Faculty_01,CR-09,Theory,40,Friday,10:00,11:00,Theory,51,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0521,ECE,2,B,Digital Electronics,ECE_Faculty_03,LAB-01,Lab,30,Monday,12:15,13:15,Lab,55,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0522,MECH,3,A,Manufacturing Technology,MECH_Faculty_01,LAB-05,Lab,30,Wednesday,09:00,10:00,Lab,29,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0523,CSE,3,B,Python Programming,CSE_Faculty_07,CR-05,Theory,50,Saturday,15:00,16:00,Theory,34,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0524,MECH,6,C,Thermodynamics,MECH_Faculty_02,CR-06,Theory,50,Friday,10:00,11:00,Theory,56,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0525,ECE,3,B,VLSI Design,ECE_Faculty_11,CR-07,Theory,40,Monday,09:00,10:00,Theory,57,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0526,MECH,2,B,Machine Design,MECH_Faculty_08,CR-07,Theory,40,Monday,12:15,13:15,Theory,44,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0527,MECH,2,A,Engineering Mechanics,MECH_Faculty_09,CR-02,Theory,40,Friday,12:15,13:15,Theory,51,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0528,MECH,2,C,Engineering Mechanics,MECH_Faculty_11,CR-08,Theory,80,Tuesday,10:00,11:00,Theory,50,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0529,EEE,6,A,Power Electronics,EEE_Faculty_04,CR-03,Theory,60,Monday,15:00,16:00,Theory,63,Yes,Yes,Yes,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0530,CSE,8,B,Data Structures,CSE_Faculty_12,CR-07,Theory,40,Saturday,15:00,16:00,Theory,63,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0531,ECE,1,A,Digital Electronics,ECE_Faculty_02,LAB-01,Lab,30,Saturday,10:00,11:00,Lab,26,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0532,AIML,8,A,Machine Learning,AIML_Faculty_08,LAB-07,Lab,60,Monday,09:00,10:00,Lab,35,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0533,MECH,4,B,Thermodynamics,MECH_Faculty_10,CR-07,Theory,40,Monday,11:15,12:15,Theory,25,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0534,MECH,5,A,Machine Design,MECH_Faculty_08,CR-07,Theory,40,Thursday,14:00,15:00,Theory,62,Yes,No,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0535,EEE,2,B,Power Electronics,EEE_Faculty_11,LAB-07,Lab,60,Thursday,09:00,10:00,Lab,56,Yes,Yes,Yes,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0536,AIML,4,C,Data Mining,AIML_Faculty_04,LAB-06,Lab,40,Friday,15:00,16:00,Lab,54,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0537,EEE,4,B,Power Systems,EEE_Faculty_12,CR-12,Theory,40,Monday,15:00,16:00,Theory,55,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0538,ECE,4,C,Signals and Systems,ECE_Faculty_01,CR-01,Theory,40,Wednesday,11:15,12:15,Theory,47,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0539,CSE,4,B,AI and Machine Learning,CSE_Faculty_05,LAB-06,Lab,40,Wednesday,09:00,10:00,Lab,60,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0540,CSE,8,A,Operating Systems,CSE_Faculty_02,CR-10,Theory,80,Friday,09:00,10:00,Theory,60,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0541,AIML,5,C,Statistics,AIML_Faculty_08,CR-09,Theory,40,Thursday,15:00,16:00,Theory,31,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0542,CSE,8,B,Data Structures,CSE_Faculty_05,CR-09,Theory,40,Tuesday,09:00,10:00,Theory,42,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0543,AIML,7,B,Deep Learning,AIML_Faculty_08,CR-09,Theory,40,Saturday,11:15,12:15,Theory,26,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0544,ECE,3,B,Microprocessors,ECE_Faculty_01,LAB-07,Lab,60,Monday,15:00,16:00,Lab,34,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0545,EEE,5,C,Circuit Theory,EEE_Faculty_12,CR-06,Theory,50,Wednesday,09:00,10:00,Theory,42,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0546,MECH,8,C,Machine Design,MECH_Faculty_06,CR-11,Theory,70,Thursday,10:00,11:00,Theory,44,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0547,MECH,5,A,Machine Design,MECH_Faculty_02,CR-09,Theory,40,Friday,11:15,12:15,Theory,58,Yes,Yes,No,Yes,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0548,AIML,7,C,Artificial Intelligence,AIML_Faculty_02,CR-12,Theory,40,Monday,11:15,12:15,Theory,41,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0549,ECE,1,B,VLSI Design,ECE_Faculty_06,CR-04,Theory,50,Saturday,14:00,15:00,Theory,61,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0550,ECE,3,C,Microprocessors,ECE_Faculty_07,CR-09,Theory,40,Saturday,10:00,11:00,Theory,31,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0551,EEE,2,A,Electrical Machines,EEE_Faculty_07,CR-03,Theory,60,Thursday,10:00,11:00,Theory,53,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0552,ECE,8,C,VLSI Design,ECE_Faculty_07,CR-08,Theory,80,Saturday,12:15,13:15,Theory,51,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0553,MECH,2,C,Machine Design,MECH_Faculty_04,CR-08,Theory,80,Thursday,09:00,10:00,Theory,35,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0554,ECE,5,A,VLSI Design,ECE_Faculty_09,CR-03,Theory,60,Monday,11:15,12:15,Theory,44,No,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0555,CSE,5,A,Database Management,CSE_Faculty_03,CR-12,Theory,40,Thursday,09:00,10:00,Theory,32,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0556,EEE,7,B,Control Systems,EEE_Faculty_12,CR-10,Theory,80,Tuesday,10:00,11:00,Theory,57,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0557,CSE,7,B,AI and Machine Learning,CSE_Faculty_04,CR-07,Theory,40,Wednesday,14:00,15:00,Theory,27,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0558,CSE,5,C,AI and Machine Learning,CSE_Faculty_11,CR-02,Theory,40,Saturday,14:00,15:00,Theory,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0559,AIML,1,A,Data Mining,AIML_Faculty_11,CR-09,Theory,40,Tuesday,09:00,10:00,Theory,42,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0560,MECH,6,B,Machine Design,MECH_Faculty_10,CR-01,Theory,40,Thursday,09:00,10:00,Theory,46,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0561,CSE,3,A,AI and Machine Learning,CSE_Faculty_05,LAB-02,Lab,30,Tuesday,11:15,12:15,Lab,51,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0562,EEE,6,A,Electrical Machines,EEE_Faculty_07,CR-06,Theory,50,Wednesday,12:15,13:15,Theory,32,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0563,EEE,5,A,Electrical Machines,EEE_Faculty_06,CR-08,Theory,80,Friday,12:15,13:15,Theory,29,Yes,Yes,Yes,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0564,AIML,3,B,Python Programming,AIML_Faculty_10,CR-07,Theory,40,Thursday,09:00,10:00,Theory,65,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0565,MECH,8,A,Manufacturing Technology,MECH_Faculty_01,CR-08,Theory,80,Friday,11:15,12:15,Theory,35,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0566,ECE,5,A,Signals and Systems,ECE_Faculty_03,CR-12,Theory,40,Friday,14:00,15:00,Theory,29,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0567,EEE,6,C,Power Systems,EEE_Faculty_06,CR-11,Theory,70,Wednesday,15:00,16:00,Theory,53,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0568,ECE,3,C,Digital Electronics,ECE_Faculty_01,CR-10,Theory,80,Thursday,09:00,10:00,Theory,25,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0569,CSE,2,C,Computer Networks,CSE_Faculty_01,CR-11,Theory,70,Thursday,15:00,16:00,Theory,32,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0570,CSE,4,B,Python Programming,CSE_Faculty_01,CR-04,Theory,50,Saturday,09:00,10:00,Theory,42,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0571,AIML,6,A,Deep Learning,AIML_Faculty_05,CR-08,Theory,80,Saturday,15:00,16:00,Theory,63,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0572,MECH,4,C,Manufacturing Technology,MECH_Faculty_12,LAB-03,Lab,40,Monday,14:00,15:00,Lab,33,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0573,ECE,1,C,Signals and Systems,ECE_Faculty_11,CR-09,Theory,40,Friday,11:15,12:15,Theory,60,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0574,ECE,7,B,Communication Systems,ECE_Faculty_02,CR-11,Theory,70,Friday,12:15,13:15,Theory,56,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0575,MECH,7,A,Manufacturing Technology,MECH_Faculty_06,LAB-02,Lab,30,Friday,09:00,10:00,Lab,39,No,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0576,ECE,2,A,Digital Electronics,ECE_Faculty_08,CR-07,Theory,40,Monday,14:00,15:00,Theory,65,No,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0577,CSE,4,A,Database Management,CSE_Faculty_10,CR-10,Theory,80,Thursday,09:00,10:00,Theory,65,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0578,CSE,1,B,Data Structures,CSE_Faculty_01,CR-05,Theory,50,Friday,15:00,16:00,Theory,52,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0579,CSE,4,C,AI and Machine Learning,CSE_Faculty_11,CR-10,Theory,80,Monday,12:15,13:15,Theory,49,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0580,CSE,6,C,Operating Systems,CSE_Faculty_04,CR-02,Theory,40,Monday,09:00,10:00,Theory,63,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0581,ECE,8,C,Communication Systems,ECE_Faculty_10,CR-08,Theory,80,Tuesday,10:00,11:00,Theory,33,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0582,ECE,3,A,Microprocessors,ECE_Faculty_08,CR-05,Theory,50,Friday,11:15,12:15,Theory,43,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0583,MECH,1,B,Machine Design,MECH_Faculty_06,CR-04,Theory,50,Tuesday,15:00,16:00,Theory,37,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0584,MECH,6,C,Fluid Mechanics,MECH_Faculty_05,CR-07,Theory,40,Wednesday,10:00,11:00,Theory,31,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0585,AIML,4,B,Statistics,AIML_Faculty_10,CR-04,Theory,50,Tuesday,12:15,13:15,Theory,46,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0586,CSE,2,A,Python Programming,CSE_Faculty_05,LAB-08,Lab,40,Tuesday,15:00,16:00,Lab,62,No,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0587,ECE,6,C,Signals and Systems,ECE_Faculty_04,CR-03,Theory,60,Tuesday,09:00,10:00,Theory,36,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0588,CSE,4,B,Database Management,CSE_Faculty_08,CR-04,Theory,50,Wednesday,11:15,12:15,Theory,35,No,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0589,CSE,3,A,Data Structures,CSE_Faculty_04,CR-09,Theory,40,Thursday,15:00,16:00,Theory,48,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0590,MECH,3,B,Fluid Mechanics,MECH_Faculty_04,CR-01,Theory,40,Saturday,11:15,12:15,Theory,33,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0591,MECH,3,C,Engineering Mechanics,MECH_Faculty_07,CR-11,Theory,70,Friday,11:15,12:15,Theory,56,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0592,EEE,5,C,Circuit Theory,EEE_Faculty_07,CR-11,Theory,70,Friday,15:00,16:00,Theory,27,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0593,EEE,3,B,Circuit Theory,EEE_Faculty_05,CR-09,Theory,40,Monday,10:00,11:00,Theory,30,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0594,ECE,8,B,Communication Systems,ECE_Faculty_07,CR-07,Theory,40,Wednesday,12:15,13:15,Theory,45,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0595,CSE,2,B,Database Management,CSE_Faculty_04,CR-02,Theory,40,Monday,09:00,10:00,Theory,48,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0596,AIML,3,C,Statistics,AIML_Faculty_12,CR-09,Theory,40,Wednesday,09:00,10:00,Theory,44,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0597,EEE,3,B,Power Electronics,EEE_Faculty_04,CR-04,Theory,50,Saturday,15:00,16:00,Theory,38,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0598,ECE,4,B,Digital Electronics,ECE_Faculty_12,LAB-07,Lab,60,Tuesday,12:15,13:15,Lab,53,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0599,CSE,6,B,Operating Systems,CSE_Faculty_04,CR-07,Theory,40,Thursday,15:00,16:00,Theory,50,Yes,Yes,Yes,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0600,AIML,6,C,Deep Learning,AIML_Faculty_11,CR-10,Theory,80,Friday,14:00,15:00,Theory,50,No,Yes,No,Yes,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0601,CSE,8,C,Database Management,CSE_Faculty_05,CR-02,Theory,40,Tuesday,09:00,10:00,Theory,60,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0602,EEE,4,A,Control Systems,EEE_Faculty_05,CR-11,Theory,70,Friday,09:00,10:00,Theory,54,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0603,AIML,7,B,Machine Learning,AIML_Faculty_12,LAB-02,Lab,30,Thursday,10:00,11:00,Lab,33,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0604,MECH,8,B,Thermodynamics,MECH_Faculty_04,CR-01,Theory,40,Tuesday,12:15,13:15,Theory,29,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0605,EEE,1,C,Circuit Theory,EEE_Faculty_02,CR-05,Theory,50,Saturday,12:15,13:15,Theory,47,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0606,EEE,3,C,Power Systems,EEE_Faculty_12,CR-07,Theory,40,Thursday,12:15,13:15,Theory,36,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0607,ECE,5,C,VLSI Design,ECE_Faculty_02,CR-12,Theory,40,Saturday,15:00,16:00,Theory,38,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0608,MECH,7,B,Fluid Mechanics,MECH_Faculty_03,CR-05,Theory,50,Tuesday,14:00,15:00,Theory,27,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0609,EEE,7,A,Power Systems,EEE_Faculty_01,CR-05,Theory,50,Monday,15:00,16:00,Theory,33,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0610,AIML,8,A,Statistics,AIML_Faculty_08,CR-05,Theory,50,Tuesday,10:00,11:00,Theory,26,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0611,CSE,5,A,Computer Networks,CSE_Faculty_08,CR-06,Theory,50,Tuesday,10:00,11:00,Theory,27,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0612,CSE,5,B,Operating Systems,CSE_Faculty_01,CR-10,Theory,80,Monday,09:00,10:00,Theory,49,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0613,EEE,1,B,Electrical Machines,EEE_Faculty_04,CR-11,Theory,70,Saturday,09:00,10:00,Theory,39,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0614,MECH,6,B,Engineering Mechanics,MECH_Faculty_09,CR-11,Theory,70,Tuesday,14:00,15:00,Theory,38,No,Yes,No,No,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0615,ECE,1,B,Signals and Systems,ECE_Faculty_11,CR-06,Theory,50,Monday,12:15,13:15,Theory,38,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0616,AIML,8,A,Data Mining,AIML_Faculty_12,LAB-03,Lab,40,Wednesday,09:00,10:00,Lab,63,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0617,ECE,6,C,Signals and Systems,ECE_Faculty_08,CR-02,Theory,40,Wednesday,09:00,10:00,Theory,63,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0618,AIML,2,B,Machine Learning,AIML_Faculty_04,CR-12,Theory,40,Thursday,10:00,11:00,Theory,64,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0619,CSE,8,C,Data Structures,CSE_Faculty_06,CR-03,Theory,60,Wednesday,11:15,12:15,Theory,27,Yes,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0620,ECE,1,C,Microprocessors,ECE_Faculty_04,LAB-04,Lab,40,Friday,12:15,13:15,Lab,58,Yes,Yes,No,Yes,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0621,CSE,3,A,Computer Networks,CSE_Faculty_03,CR-02,Theory,40,Tuesday,14:00,15:00,Theory,60,Yes,No,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0622,ECE,4,A,Signals and Systems,ECE_Faculty_07,CR-03,Theory,60,Friday,10:00,11:00,Theory,44,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0623,CSE,7,B,Database Management,CSE_Faculty_03,CR-08,Theory,80,Thursday,12:15,13:15,Theory,57,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0624,EEE,2,B,Circuit Theory,EEE_Faculty_10,CR-09,Theory,40,Tuesday,14:00,15:00,Theory,36,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0625,CSE,3,C,Database Management,CSE_Faculty_08,CR-04,Theory,50,Tuesday,10:00,11:00,Theory,25,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0626,EEE,7,B,Control Systems,EEE_Faculty_05,CR-11,Theory,70,Friday,09:00,10:00,Theory,51,Yes,No,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0627,EEE,6,C,Control Systems,EEE_Faculty_12,CR-08,Theory,80,Saturday,15:00,16:00,Theory,48,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0628,ECE,3,B,Digital Electronics,ECE_Faculty_10,CR-08,Theory,80,Saturday,10:00,11:00,Theory,41,Yes,Yes,Yes,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0629,EEE,2,C,Circuit Theory,EEE_Faculty_04,CR-07,Theory,40,Tuesday,12:15,13:15,Theory,41,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0630,EEE,2,C,Electrical Machines,EEE_Faculty_10,CR-06,Theory,50,Tuesday,11:15,12:15,Theory,38,No,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0631,CSE,7,C,Python Programming,CSE_Faculty_07,LAB-05,Lab,30,Saturday,12:15,13:15,Lab,35,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0632,EEE,3,A,Power Electronics,EEE_Faculty_01,CR-12,Theory,40,Tuesday,10:00,11:00,Theory,41,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0633,CSE,2,B,Database Management,CSE_Faculty_02,CR-05,Theory,50,Monday,11:15,12:15,Theory,26,Yes,Yes,Yes,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0634,CSE,1,A,Computer Networks,CSE_Faculty_04,CR-09,Theory,40,Monday,12:15,13:15,Theory,63,Yes,No,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0635,MECH,6,B,Manufacturing Technology,MECH_Faculty_04,LAB-06,Lab,40,Saturday,12:15,13:15,Lab,49,Yes,No,Yes,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0636,AIML,5,C,Machine Learning,AIML_Faculty_04,CR-06,Theory,50,Thursday,14:00,15:00,Theory,55,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0637,CSE,6,A,Computer Networks,CSE_Faculty_12,CR-06,Theory,50,Saturday,12:15,13:15,Theory,39,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0638,CSE,7,B,Computer Networks,CSE_Faculty_10,CR-04,Theory,50,Saturday,10:00,11:00,Theory,58,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0639,ECE,8,A,VLSI Design,ECE_Faculty_08,CR-02,Theory,40,Thursday,15:00,16:00,Theory,59,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0640,AIML,7,B,Artificial Intelligence,AIML_Faculty_04,CR-12,Theory,40,Wednesday,15:00,16:00,Theory,55,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0641,CSE,6,A,Computer Networks,CSE_Faculty_10,CR-10,Theory,80,Monday,15:00,16:00,Theory,46,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0642,EEE,4,B,Power Systems,EEE_Faculty_02,CR-05,Theory,50,Monday,09:00,10:00,Theory,30,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0643,AIML,7,C,Artificial Intelligence,AIML_Faculty_12,CR-01,Theory,40,Wednesday,09:00,10:00,Theory,62,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0644,MECH,4,A,Machine Design,MECH_Faculty_07,CR-01,Theory,40,Friday,12:15,13:15,Theory,45,Yes,No,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0645,AIML,1,C,Statistics,AIML_Faculty_06,CR-05,Theory,50,Friday,15:00,16:00,Theory,32,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0646,ECE,1,B,Communication Systems,ECE_Faculty_03,CR-12,Theory,40,Tuesday,15:00,16:00,Theory,39,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0647,AIML,6,B,Machine Learning,AIML_Faculty_11,CR-08,Theory,80,Wednesday,12:15,13:15,Theory,50,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0648,EEE,3,B,Electrical Machines,EEE_Faculty_10,CR-01,Theory,40,Saturday,11:15,12:15,Theory,54,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0649,AIML,4,C,Deep Learning,AIML_Faculty_11,CR-01,Theory,40,Wednesday,15:00,16:00,Theory,61,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0650,CSE,8,A,Python Programming,CSE_Faculty_01,LAB-02,Lab,30,Friday,15:00,16:00,Lab,46,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0651,AIML,3,C,Data Mining,AIML_Faculty_12,CR-07,Theory,40,Saturday,15:00,16:00,Theory,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0652,ECE,2,A,Digital Electronics,ECE_Faculty_08,LAB-04,Lab,40,Monday,14:00,15:00,Lab,61,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0653,EEE,7,B,Circuit Theory,EEE_Faculty_10,CR-03,Theory,60,Monday,11:15,12:15,Theory,29,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0654,EEE,8,A,Power Electronics,EEE_Faculty_09,CR-10,Theory,80,Friday,15:00,16:00,Theory,32,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0655,AIML,6,A,Machine Learning,AIML_Faculty_01,CR-03,Theory,60,Friday,10:00,11:00,Theory,35,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0656,ECE,3,B,VLSI Design,ECE_Faculty_11,CR-01,Theory,40,Tuesday,11:15,12:15,Theory,27,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0657,ECE,6,C,VLSI Design,ECE_Faculty_09,CR-09,Theory,40,Tuesday,15:00,16:00,Theory,31,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0658,AIML,6,B,Python Programming,AIML_Faculty_03,CR-12,Theory,40,Friday,12:15,13:15,Theory,29,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0659,ECE,3,C,Communication Systems,ECE_Faculty_04,CR-02,Theory,40,Saturday,15:00,16:00,Theory,42,No,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0660,EEE,6,B,Power Systems,EEE_Faculty_07,CR-01,Theory,40,Friday,10:00,11:00,Theory,29,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0661,CSE,6,B,Database Management,CSE_Faculty_03,CR-04,Theory,50,Wednesday,09:00,10:00,Theory,31,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0662,AIML,5,C,Python Programming,AIML_Faculty_08,CR-02,Theory,40,Friday,11:15,12:15,Theory,61,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0663,EEE,6,C,Power Systems,EEE_Faculty_11,CR-09,Theory,40,Friday,14:00,15:00,Theory,50,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0664,AIML,5,A,Data Mining,AIML_Faculty_12,CR-11,Theory,70,Wednesday,15:00,16:00,Theory,40,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0665,MECH,5,B,Fluid Mechanics,MECH_Faculty_09,CR-12,Theory,40,Tuesday,11:15,12:15,Theory,65,Yes,No,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0666,CSE,4,A,Computer Networks,CSE_Faculty_03,CR-10,Theory,80,Monday,09:00,10:00,Theory,43,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0667,AIML,2,B,Data Mining,AIML_Faculty_01,CR-10,Theory,80,Tuesday,15:00,16:00,Theory,25,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0668,MECH,1,C,Machine Design,MECH_Faculty_08,CR-03,Theory,60,Saturday,14:00,15:00,Theory,39,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0669,EEE,3,B,Circuit Theory,EEE_Faculty_02,CR-06,Theory,50,Saturday,10:00,11:00,Theory,59,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0670,CSE,7,A,Computer Networks,CSE_Faculty_05,CR-11,Theory,70,Friday,09:00,10:00,Theory,54,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0671,ECE,6,C,Microprocessors,ECE_Faculty_03,LAB-07,Lab,60,Wednesday,09:00,10:00,Lab,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0672,EEE,3,C,Electrical Machines,EEE_Faculty_05,CR-04,Theory,50,Thursday,12:15,13:15,Theory,48,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0673,EEE,3,B,Power Systems,EEE_Faculty_12,CR-07,Theory,40,Monday,11:15,12:15,Theory,37,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0674,AIML,4,B,Statistics,AIML_Faculty_11,CR-05,Theory,50,Monday,12:15,13:15,Theory,56,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0675,MECH,2,A,Manufacturing Technology,MECH_Faculty_03,LAB-03,Lab,40,Wednesday,14:00,15:00,Lab,25,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0676,CSE,8,B,Operating Systems,CSE_Faculty_05,CR-08,Theory,80,Monday,12:15,13:15,Theory,40,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0677,AIML,7,A,Statistics,AIML_Faculty_08,CR-12,Theory,40,Monday,15:00,16:00,Theory,57,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0678,AIML,4,A,Data Mining,AIML_Faculty_07,LAB-01,Lab,30,Friday,10:00,11:00,Lab,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0679,AIML,7,B,Artificial Intelligence,AIML_Faculty_01,CR-09,Theory,40,Thursday,15:00,16:00,Theory,28,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0680,ECE,1,A,Digital Electronics,ECE_Faculty_11,LAB-06,Lab,40,Tuesday,11:15,12:15,Lab,55,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0681,ECE,1,C,Microprocessors,ECE_Faculty_09,LAB-03,Lab,40,Wednesday,11:15,12:15,Lab,48,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0682,MECH,2,A,Manufacturing Technology,MECH_Faculty_11,LAB-02,Lab,30,Monday,14:00,15:00,Lab,37,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0683,ECE,4,C,Communication Systems,ECE_Faculty_12,CR-03,Theory,60,Monday,10:00,11:00,Theory,37,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0684,CSE,2,B,Operating Systems,CSE_Faculty_07,CR-09,Theory,40,Friday,09:00,10:00,Theory,35,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0685,AIML,7,B,Statistics,AIML_Faculty_11,CR-09,Theory,40,Friday,09:00,10:00,Theory,35,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0686,AIML,4,C,Deep Learning,AIML_Faculty_12,LAB-01,Lab,30,Friday,12:15,13:15,Lab,57,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0687,MECH,3,A,Engineering Mechanics,MECH_Faculty_01,CR-09,Theory,40,Tuesday,11:15,12:15,Theory,27,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0688,AIML,1,C,Deep Learning,AIML_Faculty_06,CR-11,Theory,70,Friday,11:15,12:15,Theory,45,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0689,ECE,1,B,Microprocessors,ECE_Faculty_04,CR-12,Theory,40,Wednesday,10:00,11:00,Theory,41,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0690,ECE,4,B,VLSI Design,ECE_Faculty_04,CR-06,Theory,50,Wednesday,10:00,11:00,Theory,62,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0691,ECE,8,A,Signals and Systems,ECE_Faculty_08,CR-03,Theory,60,Thursday,10:00,11:00,Theory,36,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0692,AIML,4,A,Deep Learning,AIML_Faculty_03,CR-02,Theory,40,Thursday,10:00,11:00,Theory,54,No,No,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0693,MECH,7,B,Engineering Mechanics,MECH_Faculty_01,CR-02,Theory,40,Monday,15:00,16:00,Theory,27,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Low,Valid,Keep Slot
+TT0694,CSE,6,C,Python Programming,CSE_Faculty_02,CR-04,Theory,50,Tuesday,12:15,13:15,Theory,61,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0695,MECH,2,A,Fluid Mechanics,MECH_Faculty_01,CR-02,Theory,40,Friday,11:15,12:15,Theory,31,Yes,Yes,No,Yes,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0696,EEE,3,B,Circuit Theory,EEE_Faculty_11,CR-05,Theory,50,Tuesday,15:00,16:00,Theory,49,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0697,CSE,6,A,Database Management,CSE_Faculty_10,CR-06,Theory,50,Monday,11:15,12:15,Theory,30,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0698,EEE,5,C,Power Systems,EEE_Faculty_05,CR-06,Theory,50,Monday,11:15,12:15,Theory,56,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0699,AIML,3,B,Artificial Intelligence,AIML_Faculty_08,CR-12,Theory,40,Thursday,09:00,10:00,Theory,32,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0700,AIML,8,B,Data Mining,AIML_Faculty_08,LAB-07,Lab,60,Friday,15:00,16:00,Lab,46,Yes,No,No,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0701,MECH,4,B,Machine Design,MECH_Faculty_02,CR-10,Theory,80,Saturday,12:15,13:15,Theory,58,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0702,CSE,1,B,Data Structures,CSE_Faculty_09,CR-08,Theory,80,Tuesday,09:00,10:00,Theory,28,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0703,AIML,1,C,Deep Learning,AIML_Faculty_03,CR-02,Theory,40,Saturday,15:00,16:00,Theory,34,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0704,MECH,8,C,Engineering Mechanics,MECH_Faculty_03,CR-01,Theory,40,Tuesday,11:15,12:15,Theory,34,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0705,EEE,5,B,Power Systems,EEE_Faculty_07,CR-12,Theory,40,Wednesday,12:15,13:15,Theory,25,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0706,CSE,7,C,Operating Systems,CSE_Faculty_08,CR-09,Theory,40,Saturday,11:15,12:15,Theory,61,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0707,MECH,3,C,Manufacturing Technology,MECH_Faculty_04,CR-07,Theory,40,Friday,09:00,10:00,Theory,39,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0708,EEE,6,C,Circuit Theory,EEE_Faculty_11,CR-07,Theory,40,Thursday,10:00,11:00,Theory,28,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0709,MECH,1,A,Fluid Mechanics,MECH_Faculty_05,CR-03,Theory,60,Friday,09:00,10:00,Theory,29,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0710,AIML,2,C,Artificial Intelligence,AIML_Faculty_10,CR-01,Theory,40,Friday,12:15,13:15,Theory,27,Yes,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0711,EEE,7,C,Power Electronics,EEE_Faculty_06,LAB-03,Lab,40,Saturday,15:00,16:00,Lab,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0712,CSE,8,C,AI and Machine Learning,CSE_Faculty_01,CR-05,Theory,50,Tuesday,10:00,11:00,Theory,54,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0713,AIML,6,B,Python Programming,AIML_Faculty_03,CR-06,Theory,50,Wednesday,11:15,12:15,Theory,64,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0714,MECH,2,A,Machine Design,MECH_Faculty_10,CR-11,Theory,70,Thursday,09:00,10:00,Theory,25,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0715,EEE,8,B,Electrical Machines,EEE_Faculty_03,CR-05,Theory,50,Tuesday,09:00,10:00,Theory,42,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0716,EEE,8,C,Control Systems,EEE_Faculty_03,CR-02,Theory,40,Friday,12:15,13:15,Theory,27,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0717,EEE,6,B,Control Systems,EEE_Faculty_02,CR-11,Theory,70,Thursday,14:00,15:00,Theory,53,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0718,AIML,1,A,Statistics,AIML_Faculty_02,CR-05,Theory,50,Thursday,10:00,11:00,Theory,61,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0719,EEE,8,A,Circuit Theory,EEE_Faculty_02,CR-03,Theory,60,Saturday,09:00,10:00,Theory,50,Yes,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0720,AIML,8,A,Statistics,AIML_Faculty_05,CR-08,Theory,80,Monday,14:00,15:00,Theory,34,No,Yes,Yes,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0721,CSE,7,B,Database Management,CSE_Faculty_04,CR-01,Theory,40,Tuesday,09:00,10:00,Theory,52,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0722,ECE,7,C,Communication Systems,ECE_Faculty_04,CR-11,Theory,70,Wednesday,10:00,11:00,Theory,28,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0723,ECE,8,B,Communication Systems,ECE_Faculty_09,CR-12,Theory,40,Tuesday,15:00,16:00,Theory,52,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0724,CSE,3,B,Computer Networks,CSE_Faculty_11,CR-12,Theory,40,Saturday,15:00,16:00,Theory,45,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0725,ECE,1,B,VLSI Design,ECE_Faculty_03,CR-11,Theory,70,Thursday,15:00,16:00,Theory,62,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0726,MECH,4,A,Manufacturing Technology,MECH_Faculty_11,LAB-01,Lab,30,Wednesday,11:15,12:15,Lab,26,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0727,EEE,6,B,Circuit Theory,EEE_Faculty_09,CR-07,Theory,40,Friday,11:15,12:15,Theory,32,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0728,EEE,7,C,Control Systems,EEE_Faculty_05,CR-12,Theory,40,Friday,09:00,10:00,Theory,30,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0729,EEE,2,C,Power Electronics,EEE_Faculty_08,CR-09,Theory,40,Friday,09:00,10:00,Theory,43,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0730,CSE,8,B,Database Management,CSE_Faculty_11,CR-12,Theory,40,Saturday,12:15,13:15,Theory,25,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0731,ECE,4,A,Communication Systems,ECE_Faculty_07,CR-01,Theory,40,Monday,09:00,10:00,Theory,34,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0732,AIML,4,C,Python Programming,AIML_Faculty_07,CR-04,Theory,50,Friday,15:00,16:00,Theory,50,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0733,AIML,3,B,Data Mining,AIML_Faculty_04,CR-02,Theory,40,Saturday,10:00,11:00,Theory,57,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0734,MECH,6,A,Thermodynamics,MECH_Faculty_02,CR-02,Theory,40,Monday,12:15,13:15,Theory,25,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0735,MECH,3,B,Manufacturing Technology,MECH_Faculty_11,LAB-06,Lab,40,Tuesday,10:00,11:00,Lab,39,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0736,ECE,3,C,Digital Electronics,ECE_Faculty_01,LAB-02,Lab,30,Monday,12:15,13:15,Lab,63,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0737,ECE,7,A,Signals and Systems,ECE_Faculty_08,CR-01,Theory,40,Thursday,09:00,10:00,Theory,56,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0738,AIML,3,C,Deep Learning,AIML_Faculty_10,LAB-01,Lab,30,Monday,11:15,12:15,Lab,47,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0739,CSE,1,C,Data Structures,CSE_Faculty_01,CR-09,Theory,40,Friday,10:00,11:00,Theory,38,Yes,Yes,No,Yes,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0740,AIML,5,B,Artificial Intelligence,AIML_Faculty_04,CR-02,Theory,40,Wednesday,15:00,16:00,Theory,60,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0741,ECE,4,C,Signals and Systems,ECE_Faculty_12,CR-05,Theory,50,Thursday,09:00,10:00,Theory,62,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0742,EEE,7,C,Circuit Theory,EEE_Faculty_12,CR-05,Theory,50,Wednesday,14:00,15:00,Theory,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0743,EEE,1,C,Power Systems,EEE_Faculty_05,CR-10,Theory,80,Thursday,11:15,12:15,Theory,63,Yes,Yes,Yes,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0744,ECE,3,B,Communication Systems,ECE_Faculty_04,CR-02,Theory,40,Tuesday,15:00,16:00,Theory,48,Yes,Yes,No,Yes,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0745,AIML,6,A,Data Mining,AIML_Faculty_09,CR-02,Theory,40,Thursday,11:15,12:15,Theory,63,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0746,MECH,7,B,Manufacturing Technology,MECH_Faculty_06,CR-04,Theory,50,Tuesday,09:00,10:00,Theory,56,Yes,No,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0747,MECH,1,B,Manufacturing Technology,MECH_Faculty_01,LAB-01,Lab,30,Thursday,11:15,12:15,Lab,33,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0748,CSE,2,B,Operating Systems,CSE_Faculty_12,CR-05,Theory,50,Wednesday,11:15,12:15,Theory,47,Yes,Yes,Yes,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0749,EEE,2,B,Circuit Theory,EEE_Faculty_10,CR-02,Theory,40,Monday,10:00,11:00,Theory,28,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0750,AIML,6,C,Machine Learning,AIML_Faculty_01,LAB-01,Lab,30,Wednesday,09:00,10:00,Lab,32,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0751,ECE,3,C,Signals and Systems,ECE_Faculty_08,CR-02,Theory,40,Tuesday,11:15,12:15,Theory,34,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0752,MECH,8,C,Thermodynamics,MECH_Faculty_08,CR-05,Theory,50,Wednesday,15:00,16:00,Theory,55,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0753,AIML,2,A,Statistics,AIML_Faculty_08,CR-01,Theory,40,Tuesday,09:00,10:00,Theory,38,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0754,MECH,6,B,Machine Design,MECH_Faculty_12,CR-08,Theory,80,Saturday,10:00,11:00,Theory,57,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0755,MECH,7,A,Thermodynamics,MECH_Faculty_02,CR-05,Theory,50,Thursday,10:00,11:00,Theory,44,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0756,AIML,3,B,Machine Learning,AIML_Faculty_01,CR-08,Theory,80,Saturday,14:00,15:00,Theory,53,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0757,EEE,6,A,Power Electronics,EEE_Faculty_08,CR-05,Theory,50,Wednesday,09:00,10:00,Theory,28,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0758,MECH,8,C,Fluid Mechanics,MECH_Faculty_07,CR-02,Theory,40,Saturday,09:00,10:00,Theory,40,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0759,CSE,4,C,AI and Machine Learning,CSE_Faculty_12,LAB-07,Lab,60,Thursday,12:15,13:15,Lab,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0760,ECE,5,C,Microprocessors,ECE_Faculty_01,CR-02,Theory,40,Tuesday,14:00,15:00,Theory,64,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0761,AIML,8,A,Deep Learning,AIML_Faculty_01,LAB-08,Lab,40,Thursday,11:15,12:15,Lab,26,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0762,MECH,8,C,Fluid Mechanics,MECH_Faculty_01,CR-08,Theory,80,Tuesday,12:15,13:15,Theory,32,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0763,MECH,3,A,Thermodynamics,MECH_Faculty_02,CR-05,Theory,50,Saturday,11:15,12:15,Theory,53,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0764,EEE,6,B,Electrical Machines,EEE_Faculty_12,CR-06,Theory,50,Friday,15:00,16:00,Theory,63,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0765,AIML,3,B,Statistics,AIML_Faculty_08,CR-01,Theory,40,Tuesday,14:00,15:00,Theory,52,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0766,ECE,8,C,VLSI Design,ECE_Faculty_03,CR-05,Theory,50,Saturday,11:15,12:15,Theory,46,Yes,Yes,Yes,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0767,MECH,7,B,Engineering Mechanics,MECH_Faculty_10,CR-06,Theory,50,Wednesday,09:00,10:00,Theory,25,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0768,MECH,3,B,Machine Design,MECH_Faculty_08,CR-05,Theory,50,Monday,11:15,12:15,Theory,25,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0769,EEE,1,A,Control Systems,EEE_Faculty_05,CR-03,Theory,60,Wednesday,11:15,12:15,Theory,57,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0770,AIML,2,B,Data Mining,AIML_Faculty_04,CR-01,Theory,40,Thursday,11:15,12:15,Theory,40,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0771,ECE,5,A,VLSI Design,ECE_Faculty_10,CR-07,Theory,40,Saturday,11:15,12:15,Theory,62,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0772,ECE,8,C,Digital Electronics,ECE_Faculty_03,LAB-07,Lab,60,Thursday,09:00,10:00,Lab,33,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0773,ECE,8,B,Communication Systems,ECE_Faculty_07,CR-08,Theory,80,Monday,14:00,15:00,Theory,26,No,Yes,No,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0774,MECH,6,A,Machine Design,MECH_Faculty_10,CR-09,Theory,40,Friday,11:15,12:15,Theory,28,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot
+TT0775,EEE,2,A,Electrical Machines,EEE_Faculty_05,CR-11,Theory,70,Monday,11:15,12:15,Theory,63,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0776,MECH,1,C,Machine Design,MECH_Faculty_04,CR-09,Theory,40,Tuesday,14:00,15:00,Theory,56,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0777,CSE,4,A,Operating Systems,CSE_Faculty_02,CR-01,Theory,40,Tuesday,14:00,15:00,Theory,32,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0778,EEE,2,B,Electrical Machines,EEE_Faculty_07,CR-08,Theory,80,Tuesday,10:00,11:00,Theory,59,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0779,AIML,1,A,Statistics,AIML_Faculty_03,CR-12,Theory,40,Saturday,10:00,11:00,Theory,35,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0780,CSE,5,B,AI and Machine Learning,CSE_Faculty_07,CR-12,Theory,40,Monday,12:15,13:15,Theory,51,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0781,MECH,1,C,Fluid Mechanics,MECH_Faculty_11,CR-11,Theory,70,Friday,12:15,13:15,Theory,27,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0782,CSE,6,C,Data Structures,CSE_Faculty_09,CR-04,Theory,50,Wednesday,15:00,16:00,Theory,58,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0783,EEE,5,C,Power Systems,EEE_Faculty_05,CR-07,Theory,40,Monday,15:00,16:00,Theory,55,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0784,AIML,6,C,Statistics,AIML_Faculty_10,CR-06,Theory,50,Friday,14:00,15:00,Theory,50,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0785,EEE,6,A,Circuit Theory,EEE_Faculty_12,CR-04,Theory,50,Monday,10:00,11:00,Theory,49,Yes,Yes,No,Yes,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0786,CSE,6,C,Operating Systems,CSE_Faculty_11,CR-01,Theory,40,Tuesday,11:15,12:15,Theory,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0787,EEE,5,A,Circuit Theory,EEE_Faculty_04,CR-12,Theory,40,Tuesday,12:15,13:15,Theory,58,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0788,AIML,1,B,Machine Learning,AIML_Faculty_07,CR-10,Theory,80,Friday,09:00,10:00,Theory,46,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0789,MECH,6,C,Manufacturing Technology,MECH_Faculty_09,CR-03,Theory,60,Monday,12:15,13:15,Theory,52,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0790,CSE,1,C,Python Programming,CSE_Faculty_09,CR-06,Theory,50,Monday,10:00,11:00,Theory,43,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0791,ECE,4,C,Digital Electronics,ECE_Faculty_10,CR-09,Theory,40,Wednesday,12:15,13:15,Theory,64,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0792,CSE,5,A,Python Programming,CSE_Faculty_06,LAB-01,Lab,30,Tuesday,10:00,11:00,Lab,60,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0793,CSE,1,B,AI and Machine Learning,CSE_Faculty_02,CR-07,Theory,40,Friday,15:00,16:00,Theory,64,No,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0794,CSE,4,C,Python Programming,CSE_Faculty_06,CR-07,Theory,40,Thursday,11:15,12:15,Theory,39,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0795,CSE,7,B,AI and Machine Learning,CSE_Faculty_12,CR-03,Theory,60,Thursday,15:00,16:00,Theory,52,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0796,ECE,6,B,Signals and Systems,ECE_Faculty_01,CR-04,Theory,50,Tuesday,09:00,10:00,Theory,62,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0797,AIML,3,B,Machine Learning,AIML_Faculty_03,LAB-05,Lab,30,Monday,11:15,12:15,Lab,47,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0798,CSE,4,B,Python Programming,CSE_Faculty_12,LAB-06,Lab,40,Tuesday,12:15,13:15,Lab,44,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0799,ECE,2,A,VLSI Design,ECE_Faculty_06,CR-07,Theory,40,Saturday,14:00,15:00,Theory,56,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0800,MECH,2,B,Thermodynamics,MECH_Faculty_12,CR-03,Theory,60,Monday,10:00,11:00,Theory,53,Yes,Yes,No,Yes,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0801,ECE,7,B,VLSI Design,ECE_Faculty_02,CR-01,Theory,40,Wednesday,14:00,15:00,Theory,49,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0802,AIML,7,C,Statistics,AIML_Faculty_01,CR-11,Theory,70,Wednesday,09:00,10:00,Theory,59,Yes,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0803,MECH,1,B,Thermodynamics,MECH_Faculty_12,CR-10,Theory,80,Thursday,12:15,13:15,Theory,28,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0804,EEE,5,A,Circuit Theory,EEE_Faculty_07,CR-08,Theory,80,Saturday,10:00,11:00,Theory,33,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0805,MECH,6,C,Fluid Mechanics,MECH_Faculty_07,CR-01,Theory,40,Friday,11:15,12:15,Theory,48,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0806,ECE,6,B,VLSI Design,ECE_Faculty_03,CR-08,Theory,80,Thursday,09:00,10:00,Theory,53,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0807,EEE,2,B,Electrical Machines,EEE_Faculty_10,CR-09,Theory,40,Wednesday,09:00,10:00,Theory,53,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0808,AIML,1,A,Deep Learning,AIML_Faculty_02,CR-11,Theory,70,Monday,10:00,11:00,Theory,57,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0809,ECE,6,C,Microprocessors,ECE_Faculty_12,LAB-01,Lab,30,Friday,10:00,11:00,Lab,47,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0810,MECH,7,A,Fluid Mechanics,MECH_Faculty_11,CR-07,Theory,40,Wednesday,10:00,11:00,Theory,26,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0811,EEE,1,A,Control Systems,EEE_Faculty_06,CR-01,Theory,40,Wednesday,10:00,11:00,Theory,62,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0812,AIML,1,C,Data Mining,AIML_Faculty_12,CR-03,Theory,60,Thursday,15:00,16:00,Theory,30,No,No,No,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0813,MECH,1,C,Engineering Mechanics,MECH_Faculty_08,CR-11,Theory,70,Friday,14:00,15:00,Theory,53,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0814,ECE,8,B,Signals and Systems,ECE_Faculty_12,CR-02,Theory,40,Saturday,10:00,11:00,Theory,53,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0815,ECE,4,B,Communication Systems,ECE_Faculty_07,CR-04,Theory,50,Friday,10:00,11:00,Theory,59,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0816,ECE,2,B,Microprocessors,ECE_Faculty_07,LAB-03,Lab,40,Friday,12:15,13:15,Lab,65,Yes,Yes,Yes,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0817,EEE,8,C,Control Systems,EEE_Faculty_02,CR-03,Theory,60,Monday,12:15,13:15,Theory,26,Yes,No,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0818,EEE,3,B,Control Systems,EEE_Faculty_12,CR-09,Theory,40,Tuesday,15:00,16:00,Theory,43,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0819,CSE,6,B,Computer Networks,CSE_Faculty_07,CR-11,Theory,70,Thursday,15:00,16:00,Theory,52,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0820,MECH,3,A,Engineering Mechanics,MECH_Faculty_10,CR-10,Theory,80,Wednesday,15:00,16:00,Theory,54,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0821,AIML,8,B,Artificial Intelligence,AIML_Faculty_01,CR-10,Theory,80,Friday,14:00,15:00,Theory,62,Yes,No,No,No,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0822,AIML,4,B,Machine Learning,AIML_Faculty_09,CR-05,Theory,50,Friday,14:00,15:00,Theory,45,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0823,AIML,5,C,Artificial Intelligence,AIML_Faculty_02,CR-04,Theory,50,Saturday,11:15,12:15,Theory,34,Yes,Yes,Yes,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0824,MECH,4,A,Machine Design,MECH_Faculty_08,CR-01,Theory,40,Wednesday,10:00,11:00,Theory,43,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0825,ECE,2,B,Digital Electronics,ECE_Faculty_07,CR-08,Theory,80,Wednesday,09:00,10:00,Theory,33,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0826,CSE,3,C,Database Management,CSE_Faculty_06,CR-05,Theory,50,Thursday,15:00,16:00,Theory,57,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0827,CSE,6,A,Computer Networks,CSE_Faculty_09,CR-11,Theory,70,Saturday,09:00,10:00,Theory,65,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0828,AIML,8,A,Artificial Intelligence,AIML_Faculty_08,CR-03,Theory,60,Saturday,12:15,13:15,Theory,43,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0829,AIML,8,C,Machine Learning,AIML_Faculty_10,CR-04,Theory,50,Saturday,10:00,11:00,Theory,27,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0830,EEE,3,B,Power Electronics,EEE_Faculty_04,CR-05,Theory,50,Saturday,12:15,13:15,Theory,56,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0831,CSE,7,B,Database Management,CSE_Faculty_06,CR-04,Theory,50,Saturday,12:15,13:15,Theory,32,Yes,No,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0832,EEE,7,C,Circuit Theory,EEE_Faculty_04,CR-01,Theory,40,Wednesday,11:15,12:15,Theory,57,Yes,Yes,No,Yes,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0833,ECE,7,B,Communication Systems,ECE_Faculty_07,CR-07,Theory,40,Wednesday,09:00,10:00,Theory,42,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0834,AIML,4,C,Python Programming,AIML_Faculty_02,CR-10,Theory,80,Friday,11:15,12:15,Theory,33,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0835,ECE,2,C,VLSI Design,ECE_Faculty_01,CR-09,Theory,40,Tuesday,11:15,12:15,Theory,59,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0836,AIML,6,B,Artificial Intelligence,AIML_Faculty_04,CR-09,Theory,40,Saturday,10:00,11:00,Theory,25,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0837,CSE,5,B,Data Structures,CSE_Faculty_01,CR-04,Theory,50,Saturday,15:00,16:00,Theory,40,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0838,ECE,7,A,Digital Electronics,ECE_Faculty_01,LAB-03,Lab,40,Monday,15:00,16:00,Lab,62,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0839,MECH,5,B,Engineering Mechanics,MECH_Faculty_08,CR-04,Theory,50,Monday,11:15,12:15,Theory,61,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0840,EEE,4,B,Control Systems,EEE_Faculty_01,CR-08,Theory,80,Saturday,12:15,13:15,Theory,48,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0841,AIML,2,C,Data Mining,AIML_Faculty_05,LAB-06,Lab,40,Tuesday,15:00,16:00,Lab,30,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0842,MECH,4,A,Manufacturing Technology,MECH_Faculty_08,CR-05,Theory,50,Thursday,11:15,12:15,Theory,46,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0843,ECE,8,C,Signals and Systems,ECE_Faculty_08,CR-06,Theory,50,Saturday,10:00,11:00,Theory,45,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0844,CSE,2,B,Operating Systems,CSE_Faculty_03,CR-01,Theory,40,Tuesday,14:00,15:00,Theory,32,Yes,Yes,No,Yes,Yes,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0845,MECH,7,B,Manufacturing Technology,MECH_Faculty_01,LAB-05,Lab,30,Monday,12:15,13:15,Lab,43,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0846,MECH,3,B,Thermodynamics,MECH_Faculty_09,CR-11,Theory,70,Tuesday,14:00,15:00,Theory,48,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0847,AIML,8,A,Deep Learning,AIML_Faculty_06,CR-07,Theory,40,Tuesday,10:00,11:00,Theory,55,Yes,No,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0848,MECH,1,C,Manufacturing Technology,MECH_Faculty_08,LAB-03,Lab,40,Monday,11:15,12:15,Lab,65,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0849,EEE,6,C,Power Electronics,EEE_Faculty_07,CR-05,Theory,50,Friday,14:00,15:00,Theory,37,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0850,CSE,7,B,Data Structures,CSE_Faculty_10,CR-10,Theory,80,Friday,11:15,12:15,Theory,64,Yes,Yes,No,Yes,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0851,CSE,3,B,AI and Machine Learning,CSE_Faculty_01,LAB-06,Lab,40,Monday,09:00,10:00,Lab,33,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0852,AIML,7,C,Python Programming,AIML_Faculty_08,LAB-06,Lab,40,Wednesday,14:00,15:00,Lab,45,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0853,AIML,8,C,Data Mining,AIML_Faculty_05,CR-11,Theory,70,Monday,14:00,15:00,Theory,52,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0854,EEE,4,B,Power Systems,EEE_Faculty_06,CR-03,Theory,60,Saturday,09:00,10:00,Theory,37,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0855,ECE,1,C,VLSI Design,ECE_Faculty_05,CR-01,Theory,40,Saturday,11:15,12:15,Theory,55,Yes,No,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0856,EEE,8,A,Power Electronics,EEE_Faculty_08,CR-12,Theory,40,Saturday,14:00,15:00,Theory,31,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0857,CSE,2,A,Operating Systems,CSE_Faculty_08,CR-11,Theory,70,Saturday,09:00,10:00,Theory,45,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0858,ECE,6,C,Signals and Systems,ECE_Faculty_01,CR-11,Theory,70,Thursday,12:15,13:15,Theory,28,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0859,EEE,5,C,Electrical Machines,EEE_Faculty_04,CR-12,Theory,40,Friday,12:15,13:15,Theory,36,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0860,ECE,2,C,Communication Systems,ECE_Faculty_08,CR-02,Theory,40,Monday,09:00,10:00,Theory,36,Yes,Yes,Yes,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0861,CSE,6,B,Data Structures,CSE_Faculty_02,CR-12,Theory,40,Tuesday,11:15,12:15,Theory,37,Yes,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0862,ECE,6,B,Signals and Systems,ECE_Faculty_04,CR-04,Theory,50,Wednesday,10:00,11:00,Theory,36,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0863,ECE,8,C,VLSI Design,ECE_Faculty_11,CR-03,Theory,60,Monday,14:00,15:00,Theory,49,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0864,ECE,6,C,Signals and Systems,ECE_Faculty_09,CR-09,Theory,40,Saturday,11:15,12:15,Theory,30,Yes,Yes,Yes,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0865,MECH,8,A,Thermodynamics,MECH_Faculty_08,CR-10,Theory,80,Wednesday,11:15,12:15,Theory,61,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0866,CSE,7,B,Data Structures,CSE_Faculty_06,CR-06,Theory,50,Saturday,09:00,10:00,Theory,36,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0867,MECH,7,C,Manufacturing Technology,MECH_Faculty_07,CR-08,Theory,80,Tuesday,11:15,12:15,Theory,48,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0868,MECH,7,B,Engineering Mechanics,MECH_Faculty_05,CR-10,Theory,80,Thursday,14:00,15:00,Theory,26,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0869,AIML,3,C,Python Programming,AIML_Faculty_06,CR-01,Theory,40,Monday,11:15,12:15,Theory,34,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0870,AIML,5,A,Artificial Intelligence,AIML_Faculty_03,CR-04,Theory,50,Tuesday,12:15,13:15,Theory,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0871,AIML,2,B,Artificial Intelligence,AIML_Faculty_09,CR-11,Theory,70,Thursday,15:00,16:00,Theory,38,No,Yes,No,No,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0872,EEE,6,A,Power Systems,EEE_Faculty_07,CR-06,Theory,50,Wednesday,15:00,16:00,Theory,52,Yes,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0873,AIML,4,B,Python Programming,AIML_Faculty_06,LAB-06,Lab,40,Friday,09:00,10:00,Lab,64,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0874,CSE,5,B,Data Structures,CSE_Faculty_02,CR-06,Theory,50,Thursday,15:00,16:00,Theory,36,Yes,Yes,No,No,Yes,Afternoon,Yes,No,Medium,Valid,Keep Slot
+TT0875,EEE,3,B,Power Systems,EEE_Faculty_11,CR-09,Theory,40,Monday,12:15,13:15,Theory,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0876,AIML,3,C,Artificial Intelligence,AIML_Faculty_09,CR-07,Theory,40,Saturday,12:15,13:15,Theory,25,Yes,No,Yes,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0877,ECE,8,C,Digital Electronics,ECE_Faculty_06,CR-08,Theory,80,Saturday,11:15,12:15,Theory,59,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0878,CSE,1,B,Data Structures,CSE_Faculty_12,CR-10,Theory,80,Wednesday,10:00,11:00,Theory,57,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0879,CSE,8,B,Operating Systems,CSE_Faculty_01,CR-10,Theory,80,Saturday,11:15,12:15,Theory,41,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0880,EEE,8,B,Electrical Machines,EEE_Faculty_05,CR-11,Theory,70,Monday,14:00,15:00,Theory,32,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0881,CSE,3,C,Data Structures,CSE_Faculty_08,CR-07,Theory,40,Wednesday,11:15,12:15,Theory,54,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0882,CSE,6,A,Database Management,CSE_Faculty_03,CR-10,Theory,80,Saturday,15:00,16:00,Theory,31,Yes,No,No,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0883,EEE,1,A,Circuit Theory,EEE_Faculty_12,CR-05,Theory,50,Saturday,15:00,16:00,Theory,30,Yes,Yes,No,No,Yes,Morning,No,No,Medium,Valid,Keep Slot
+TT0884,MECH,4,C,Machine Design,MECH_Faculty_01,CR-06,Theory,50,Friday,12:15,13:15,Theory,38,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0885,CSE,3,C,AI and Machine Learning,CSE_Faculty_05,LAB-05,Lab,30,Monday,12:15,13:15,Lab,38,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0886,CSE,4,A,Data Structures,CSE_Faculty_12,CR-06,Theory,50,Tuesday,09:00,10:00,Theory,64,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0887,MECH,1,B,Manufacturing Technology,MECH_Faculty_06,CR-06,Theory,50,Wednesday,12:15,13:15,Theory,34,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0888,ECE,1,C,Communication Systems,ECE_Faculty_10,CR-02,Theory,40,Saturday,12:15,13:15,Theory,60,No,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0889,ECE,8,A,Communication Systems,ECE_Faculty_03,CR-10,Theory,80,Friday,10:00,11:00,Theory,64,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0890,EEE,7,C,Power Systems,EEE_Faculty_03,CR-07,Theory,40,Friday,09:00,10:00,Theory,31,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0891,EEE,4,B,Power Electronics,EEE_Faculty_10,LAB-05,Lab,30,Wednesday,11:15,12:15,Lab,65,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0892,AIML,8,B,Data Mining,AIML_Faculty_08,CR-03,Theory,60,Tuesday,12:15,13:15,Theory,43,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0893,EEE,7,B,Power Electronics,EEE_Faculty_04,CR-11,Theory,70,Monday,14:00,15:00,Theory,39,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0894,ECE,4,A,VLSI Design,ECE_Faculty_10,CR-11,Theory,70,Thursday,15:00,16:00,Theory,30,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0895,AIML,4,A,Data Mining,AIML_Faculty_08,LAB-04,Lab,40,Wednesday,10:00,11:00,Lab,43,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0896,AIML,2,C,Deep Learning,AIML_Faculty_06,CR-03,Theory,60,Tuesday,12:15,13:15,Theory,29,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0897,EEE,7,B,Electrical Machines,EEE_Faculty_12,CR-09,Theory,40,Monday,15:00,16:00,Theory,63,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0898,ECE,1,B,Communication Systems,ECE_Faculty_07,CR-12,Theory,40,Friday,15:00,16:00,Theory,53,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0899,AIML,7,C,Artificial Intelligence,AIML_Faculty_06,CR-03,Theory,60,Tuesday,12:15,13:15,Theory,38,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0900,AIML,6,B,Artificial Intelligence,AIML_Faculty_12,CR-08,Theory,80,Wednesday,12:15,13:15,Theory,41,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0901,ECE,6,C,VLSI Design,ECE_Faculty_05,CR-05,Theory,50,Saturday,10:00,11:00,Theory,61,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0902,AIML,7,B,Python Programming,AIML_Faculty_11,LAB-04,Lab,40,Monday,10:00,11:00,Lab,62,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0903,EEE,6,C,Power Electronics,EEE_Faculty_03,CR-10,Theory,80,Friday,11:15,12:15,Theory,58,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0904,AIML,1,C,Data Mining,AIML_Faculty_02,CR-06,Theory,50,Tuesday,11:15,12:15,Theory,38,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0905,EEE,1,C,Circuit Theory,EEE_Faculty_09,CR-04,Theory,50,Saturday,10:00,11:00,Theory,48,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0906,MECH,2,A,Machine Design,MECH_Faculty_08,CR-10,Theory,80,Friday,10:00,11:00,Theory,40,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0907,EEE,1,C,Power Systems,EEE_Faculty_05,CR-09,Theory,40,Wednesday,09:00,10:00,Theory,37,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0908,AIML,8,B,Python Programming,AIML_Faculty_02,CR-09,Theory,40,Monday,11:15,12:15,Theory,65,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0909,MECH,1,C,Manufacturing Technology,MECH_Faculty_07,LAB-02,Lab,30,Saturday,12:15,13:15,Lab,37,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0910,MECH,8,C,Fluid Mechanics,MECH_Faculty_03,CR-06,Theory,50,Friday,12:15,13:15,Theory,57,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0911,MECH,5,C,Machine Design,MECH_Faculty_08,CR-02,Theory,40,Tuesday,12:15,13:15,Theory,25,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0912,ECE,8,B,Digital Electronics,ECE_Faculty_11,CR-11,Theory,70,Friday,10:00,11:00,Theory,37,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0913,EEE,5,C,Electrical Machines,EEE_Faculty_04,CR-10,Theory,80,Saturday,10:00,11:00,Theory,45,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0914,ECE,8,C,VLSI Design,ECE_Faculty_10,CR-07,Theory,40,Saturday,11:15,12:15,Theory,39,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0915,ECE,5,B,Communication Systems,ECE_Faculty_10,CR-07,Theory,40,Thursday,09:00,10:00,Theory,50,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0916,CSE,4,A,Computer Networks,CSE_Faculty_11,CR-12,Theory,40,Wednesday,11:15,12:15,Theory,48,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0917,AIML,5,A,Python Programming,AIML_Faculty_02,CR-04,Theory,50,Tuesday,11:15,12:15,Theory,55,No,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0918,AIML,7,A,Artificial Intelligence,AIML_Faculty_02,CR-01,Theory,40,Saturday,11:15,12:15,Theory,42,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0919,ECE,3,A,Communication Systems,ECE_Faculty_10,CR-05,Theory,50,Friday,10:00,11:00,Theory,60,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0920,CSE,2,C,Data Structures,CSE_Faculty_12,CR-12,Theory,40,Wednesday,11:15,12:15,Theory,53,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0921,AIML,5,B,Statistics,AIML_Faculty_10,CR-12,Theory,40,Monday,10:00,11:00,Theory,32,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0922,MECH,1,C,Fluid Mechanics,MECH_Faculty_07,CR-01,Theory,40,Friday,11:15,12:15,Theory,59,Yes,Yes,No,Yes,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0923,MECH,3,C,Engineering Mechanics,MECH_Faculty_02,CR-10,Theory,80,Thursday,14:00,15:00,Theory,37,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0924,AIML,6,A,Statistics,AIML_Faculty_03,CR-11,Theory,70,Friday,11:15,12:15,Theory,54,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0925,CSE,1,A,AI and Machine Learning,CSE_Faculty_04,CR-06,Theory,50,Thursday,10:00,11:00,Theory,41,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0926,MECH,3,A,Fluid Mechanics,MECH_Faculty_03,CR-04,Theory,50,Wednesday,10:00,11:00,Theory,31,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0927,ECE,4,A,Microprocessors,ECE_Faculty_05,CR-03,Theory,60,Thursday,11:15,12:15,Theory,39,No,Yes,No,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0928,CSE,1,B,Operating Systems,CSE_Faculty_12,CR-12,Theory,40,Tuesday,12:15,13:15,Theory,28,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0929,CSE,2,A,Data Structures,CSE_Faculty_04,CR-02,Theory,40,Thursday,15:00,16:00,Theory,63,Yes,No,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0930,EEE,2,B,Control Systems,EEE_Faculty_01,CR-01,Theory,40,Thursday,12:15,13:15,Theory,50,No,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0931,ECE,2,C,Signals and Systems,ECE_Faculty_11,CR-07,Theory,40,Thursday,09:00,10:00,Theory,42,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0932,AIML,8,A,Python Programming,AIML_Faculty_01,LAB-04,Lab,40,Saturday,15:00,16:00,Lab,43,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0933,AIML,2,A,Artificial Intelligence,AIML_Faculty_01,CR-08,Theory,80,Tuesday,11:15,12:15,Theory,50,Yes,Yes,Yes,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0934,ECE,1,C,Digital Electronics,ECE_Faculty_03,CR-07,Theory,40,Monday,14:00,15:00,Theory,49,Yes,Yes,Yes,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0935,CSE,2,A,Operating Systems,CSE_Faculty_08,CR-08,Theory,80,Thursday,14:00,15:00,Theory,53,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0936,AIML,6,C,Artificial Intelligence,AIML_Faculty_11,CR-12,Theory,40,Monday,12:15,13:15,Theory,56,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0937,AIML,2,C,Statistics,AIML_Faculty_02,CR-12,Theory,40,Thursday,11:15,12:15,Theory,64,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0938,MECH,5,A,Machine Design,MECH_Faculty_06,CR-07,Theory,40,Wednesday,15:00,16:00,Theory,34,Yes,No,No,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0939,AIML,1,A,Deep Learning,AIML_Faculty_03,LAB-07,Lab,60,Wednesday,09:00,10:00,Lab,61,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0940,EEE,8,C,Power Systems,EEE_Faculty_05,CR-09,Theory,40,Thursday,09:00,10:00,Theory,42,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0941,ECE,8,C,Communication Systems,ECE_Faculty_02,CR-11,Theory,70,Wednesday,14:00,15:00,Theory,41,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0942,AIML,2,C,Data Mining,AIML_Faculty_12,CR-05,Theory,50,Tuesday,11:15,12:15,Theory,44,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0943,EEE,4,A,Power Electronics,EEE_Faculty_04,LAB-06,Lab,40,Friday,14:00,15:00,Lab,34,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0944,MECH,6,A,Thermodynamics,MECH_Faculty_02,CR-11,Theory,70,Tuesday,15:00,16:00,Theory,65,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0945,EEE,5,A,Power Systems,EEE_Faculty_07,CR-05,Theory,50,Thursday,14:00,15:00,Theory,51,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0946,ECE,5,A,VLSI Design,ECE_Faculty_12,CR-10,Theory,80,Friday,09:00,10:00,Theory,28,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0947,EEE,7,B,Power Systems,EEE_Faculty_10,CR-04,Theory,50,Tuesday,11:15,12:15,Theory,29,Yes,No,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0948,AIML,5,B,Data Mining,AIML_Faculty_01,LAB-02,Lab,30,Friday,11:15,12:15,Lab,58,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0949,MECH,8,A,Machine Design,MECH_Faculty_02,CR-12,Theory,40,Wednesday,11:15,12:15,Theory,27,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0950,EEE,4,C,Control Systems,EEE_Faculty_02,CR-02,Theory,40,Saturday,14:00,15:00,Theory,63,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0951,EEE,2,B,Electrical Machines,EEE_Faculty_12,CR-12,Theory,40,Wednesday,11:15,12:15,Theory,65,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0952,EEE,8,A,Power Systems,EEE_Faculty_10,CR-07,Theory,40,Saturday,11:15,12:15,Theory,31,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0953,MECH,7,A,Machine Design,MECH_Faculty_10,CR-02,Theory,40,Friday,15:00,16:00,Theory,31,Yes,Yes,No,No,Yes,Morning,No,No,High,Valid,Keep Slot
+TT0954,EEE,1,B,Circuit Theory,EEE_Faculty_11,CR-08,Theory,80,Thursday,14:00,15:00,Theory,58,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0955,AIML,6,A,Python Programming,AIML_Faculty_05,LAB-07,Lab,60,Monday,15:00,16:00,Lab,54,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0956,ECE,1,B,Communication Systems,ECE_Faculty_08,CR-12,Theory,40,Saturday,11:15,12:15,Theory,35,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0957,AIML,6,B,Data Mining,AIML_Faculty_10,CR-09,Theory,40,Saturday,10:00,11:00,Theory,45,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0958,AIML,8,B,Data Mining,AIML_Faculty_06,LAB-08,Lab,40,Wednesday,10:00,11:00,Lab,35,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0959,MECH,3,B,Fluid Mechanics,MECH_Faculty_10,CR-12,Theory,40,Monday,10:00,11:00,Theory,30,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT0960,ECE,6,B,VLSI Design,ECE_Faculty_03,CR-07,Theory,40,Monday,15:00,16:00,Theory,43,Yes,No,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0961,AIML,5,A,Python Programming,AIML_Faculty_08,LAB-04,Lab,40,Saturday,10:00,11:00,Lab,40,Yes,Yes,No,No,Yes,Morning,Yes,No,Low,Valid,Keep Slot
+TT0962,MECH,7,C,Manufacturing Technology,MECH_Faculty_09,CR-10,Theory,80,Tuesday,12:15,13:15,Theory,36,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0963,ECE,5,B,Microprocessors,ECE_Faculty_06,CR-06,Theory,50,Tuesday,11:15,12:15,Theory,59,Yes,No,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0964,MECH,3,A,Machine Design,MECH_Faculty_09,CR-12,Theory,40,Thursday,14:00,15:00,Theory,45,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0965,EEE,1,B,Control Systems,EEE_Faculty_10,CR-08,Theory,80,Thursday,14:00,15:00,Theory,52,Yes,No,No,No,Yes,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0966,ECE,3,A,Communication Systems,ECE_Faculty_11,CR-06,Theory,50,Monday,15:00,16:00,Theory,42,Yes,No,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0967,AIML,8,B,Data Mining,AIML_Faculty_09,LAB-05,Lab,30,Wednesday,10:00,11:00,Lab,61,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0968,CSE,6,C,AI and Machine Learning,CSE_Faculty_02,LAB-02,Lab,30,Friday,09:00,10:00,Lab,58,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0969,AIML,8,C,Machine Learning,AIML_Faculty_02,CR-06,Theory,50,Monday,09:00,10:00,Theory,50,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0970,AIML,3,A,Artificial Intelligence,AIML_Faculty_05,CR-06,Theory,50,Tuesday,15:00,16:00,Theory,52,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0971,CSE,8,A,Database Management,CSE_Faculty_09,CR-05,Theory,50,Monday,14:00,15:00,Theory,28,No,Yes,Yes,No,Yes,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0972,CSE,7,B,Database Management,CSE_Faculty_01,CR-10,Theory,80,Friday,11:15,12:15,Theory,29,No,Yes,No,No,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Choose Another Time Slot
+TT0973,CSE,3,C,Computer Networks,CSE_Faculty_06,CR-10,Theory,80,Tuesday,12:15,13:15,Theory,36,Yes,Yes,Yes,Yes,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0974,ECE,3,C,Microprocessors,ECE_Faculty_09,LAB-03,Lab,40,Monday,12:15,13:15,Lab,37,Yes,No,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0975,EEE,2,B,Electrical Machines,EEE_Faculty_04,CR-06,Theory,50,Tuesday,10:00,11:00,Theory,56,Yes,Yes,No,Yes,No,Afternoon,No,Yes,High,Needs Rescheduling,Split Section
+TT0976,MECH,2,C,Engineering Mechanics,MECH_Faculty_11,CR-06,Theory,50,Friday,14:00,15:00,Theory,61,Yes,Yes,No,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0977,EEE,5,C,Power Systems,EEE_Faculty_07,CR-07,Theory,40,Thursday,12:15,13:15,Theory,30,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0978,EEE,1,C,Control Systems,EEE_Faculty_01,CR-04,Theory,50,Monday,11:15,12:15,Theory,62,Yes,Yes,No,No,No,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0979,CSE,7,A,Database Management,CSE_Faculty_06,CR-09,Theory,40,Monday,15:00,16:00,Theory,52,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Change Room
+TT0980,AIML,3,A,Machine Learning,AIML_Faculty_12,CR-06,Theory,50,Monday,15:00,16:00,Theory,38,Yes,Yes,No,Yes,Yes,No Preference,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0981,CSE,1,A,Database Management,CSE_Faculty_11,CR-06,Theory,50,Tuesday,12:15,13:15,Theory,39,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0982,ECE,5,A,Communication Systems,ECE_Faculty_11,CR-12,Theory,40,Wednesday,12:15,13:15,Theory,25,Yes,Yes,No,No,Yes,Afternoon,No,No,Medium,Valid,Keep Slot
+TT0983,ECE,1,C,VLSI Design,ECE_Faculty_12,CR-07,Theory,40,Monday,15:00,16:00,Theory,53,Yes,Yes,No,No,No,Morning,No,Yes,High,Needs Rescheduling,Split Section
+TT0984,CSE,6,A,Data Structures,CSE_Faculty_12,CR-05,Theory,50,Saturday,15:00,16:00,Theory,50,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0985,AIML,8,A,Machine Learning,AIML_Faculty_03,CR-09,Theory,40,Monday,12:15,13:15,Theory,55,Yes,Yes,No,No,No,Afternoon,No,Yes,High,Needs Rescheduling,Change Room
+TT0986,AIML,8,C,Data Mining,AIML_Faculty_03,CR-08,Theory,80,Friday,09:00,10:00,Theory,57,Yes,Yes,Yes,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0987,AIML,5,A,Artificial Intelligence,AIML_Faculty_06,CR-08,Theory,80,Tuesday,15:00,16:00,Theory,28,Yes,Yes,No,No,Yes,Afternoon,Yes,No,High,Valid,Keep Slot
+TT0988,AIML,8,A,Artificial Intelligence,AIML_Faculty_08,CR-02,Theory,40,Tuesday,14:00,15:00,Theory,58,Yes,Yes,Yes,No,No,No Preference,Yes,Yes,High,Needs Rescheduling,Change Room
+TT0989,EEE,3,C,Power Electronics,EEE_Faculty_06,CR-06,Theory,50,Monday,10:00,11:00,Theory,31,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0990,CSE,1,C,Data Structures,CSE_Faculty_09,CR-02,Theory,40,Monday,15:00,16:00,Theory,55,No,Yes,No,No,No,Afternoon,Yes,Yes,High,Needs Rescheduling,Change Faculty
+TT0991,EEE,8,B,Power Electronics,EEE_Faculty_03,LAB-08,Lab,40,Friday,11:15,12:15,Lab,39,Yes,Yes,No,No,Yes,Morning,Yes,No,Medium,Valid,Keep Slot
+TT0992,AIML,1,B,Artificial Intelligence,AIML_Faculty_05,CR-03,Theory,60,Monday,12:15,13:15,Theory,51,Yes,Yes,No,No,Yes,Morning,Yes,No,High,Valid,Keep Slot
+TT0993,ECE,7,B,Signals and Systems,ECE_Faculty_07,CR-08,Theory,80,Saturday,12:15,13:15,Theory,53,No,Yes,No,No,Yes,Afternoon,No,Yes,High,Needs Rescheduling,Change Faculty
+TT0994,AIML,4,C,Deep Learning,AIML_Faculty_11,CR-10,Theory,80,Wednesday,12:15,13:15,Theory,60,Yes,Yes,No,No,Yes,Afternoon,No,No,Low,Valid,Keep Slot
+TT0995,EEE,8,B,Electrical Machines,EEE_Faculty_10,CR-07,Theory,40,Monday,10:00,11:00,Theory,38,Yes,Yes,No,No,Yes,No Preference,Yes,No,Low,Valid,Keep Slot
+TT0996,EEE,4,B,Electrical Machines,EEE_Faculty_10,CR-11,Theory,70,Tuesday,11:15,12:15,Theory,61,Yes,Yes,No,No,Yes,No Preference,Yes,No,Medium,Valid,Keep Slot
+TT0997,ECE,4,C,Communication Systems,ECE_Faculty_03,CR-08,Theory,80,Wednesday,14:00,15:00,Theory,64,Yes,Yes,No,No,Yes,Morning,No,No,Low,Valid,Keep Slot
+TT0998,CSE,1,B,Python Programming,CSE_Faculty_02,CR-06,Theory,50,Wednesday,10:00,11:00,Theory,34,No,Yes,No,No,Yes,Morning,Yes,Yes,High,Needs Rescheduling,Split Section
+TT0999,EEE,3,B,Control Systems,EEE_Faculty_05,CR-02,Theory,40,Friday,10:00,11:00,Theory,34,Yes,Yes,No,No,Yes,No Preference,Yes,No,High,Valid,Keep Slot
+TT1000,EEE,4,A,Control Systems,EEE_Faculty_11,CR-03,Theory,60,Thursday,09:00,10:00,Theory,27,Yes,Yes,No,No,Yes,Afternoon,No,No,High,Valid,Keep Slot

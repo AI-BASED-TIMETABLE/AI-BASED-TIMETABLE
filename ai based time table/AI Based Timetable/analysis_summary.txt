@@ -1,0 +1,51 @@
+AI-BASED TIMETABLE DATA ANALYSIS
+======================================
+Total records: 1000
+Total columns: 25
+Duplicate rows: 0
+Missing cells: 0
+
+RECORDS BY DEPARTMENT
+Department
+ECE     217
+AIML    211
+EEE     195
+CSE     192
+MECH    185
+
+TIMETABLE STATUS
+Timetable_Status
+Needs Rescheduling    555
+Valid                 445
+
+AI RECOMMENDATIONS
+AI_Recommendation
+Keep Slot                   445
+Change Room                 148
+Split Section               140
+Choose Another Time Slot    135
+Change Faculty              132
+
+CONFLICT SUMMARY
+Faculty_Conflict:
+Faculty_Conflict
+No     950
+Yes     50
+Room_Conflict:
+Room_Conflict
+No     928
+Yes     72
+Conflict_Flag:
+Conflict_Flag
+Yes    555
+No     445
+
+STUDENT COUNT STATISTICS
+count    1000.00
+mean       44.86
+std        12.09
+min        25.00
+25%        34.00
+50%        45.00
+75%        56.00
+max        65.00
